@@ -1,0 +1,80 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{ngerman,a4wide}
+\usepackage[utf8]{inputenc}
+\usepackage{comment,xspace}
+\usepackage{enumerate,array}
+\usepackage{amsthm,amssymb,amsmath}
+\usepackage[pdftex]{graphicx}
+\usepackage{fancyhdr,lastpage}
+
+\DeclareGraphicsExtensions{.pdf}
+\sloppy\parindent=0pt
+
+\newcounter{aufgabe}
+\newenvironment{aufgabe}[2][]%
+{\stepcounter{aufgabe}\textbf{A\arabic{aufgabe}#1%
+\ifx\relax#2\relax. \else~(#2). \fi}}{\par\bigskip\bigskip\goodbreak}
+
+\renewcommand{\labelenumi}{(\alph{enumi})}
+\voffset = -2cm
+\textheight = 720pt
+
+% ************** Page style *******************
+\pagestyle{fancy}
+\lfoot{\small\textsf{\datum}}
+\cfoot{}
+\rfoot{\small\textsf{Seite \thepage/\pageref{LastPage}}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+% ************** Commands *********************
+\newcommand{\N}{\ensuremath{\mathbb{N}}}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\Q}{\ensuremath{\mathbb{Q}}}
+\newcommand{\C}{\ensuremath{\mathbb{C}}}
+\newcommand{\norm}[1]{|\negthinspace|{#1}|\negthinspace|}
+\newcommand{\Mat}[1][n\times n]{\ensuremath{\R^{#1}}}
+\newcommand{\definedas}{\mathrel{:=}}
+\newcommand{\asdefined}{\mathrel{=:}}
+\newcommand{\vect}[2]{\begin{pmatrix}	#1\\#2 \end{pmatrix}}
+\newcommand{\vectt}[3]{\begin{pmatrix}	#1\\#2\\#3 \end{pmatrix}}
+\newcommand{\vecttt}[4]{\begin{pmatrix}	#1\\#2\\#3\\#4 \end{pmatrix}}
+\newcommand{\abs}[1]{\lvert #1 \rvert}
+\renewcommand{\ker}{\ensuremath{\text{Kern}\,}}
+\newcommand{\bild}{\text{Bild}\,}
+
+% ************** Parameter aktuelles Blatt *********
+\newcommand{\veranstaltung}{Einführung in künstliche Intelligenz und Machine Learning}
+\setcounter{aufgabe}{0}
+\newcommand{\blatt}{1}
+\newcommand{\datum}{04. Oktober 2019}
+\newcommand{\abgabe}{}
+
+
+\begin{document}\sffamily
+
+\setcounter{page}{1}
+%\vspace*{5mm}
+\begin{minipage}[l]{10cm}
+	{\bfseries\veranstaltung}\\
+	Übungsblatt~\blatt\hfill Prof.~Dr.~C.~Möller
+	\noindent\rule{\textwidth}{1pt}
+\end{minipage}
+\hfill
+\begin{minipage}[r]{5cm}
+\includegraphics[width=5cm]{FK03_CMYK_Linie}
+\end{minipage}
+\vspace{5mm}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{aufgabe}{Installation der Software}
+	Im Rahmen der Lehrveranstaltung werden wir die weit verbreitete, leistungsfähige und einfach handhabbare Python-Bibliothek ``Scikit-Learn'' verwenden. Um die entsprechende Umgebung auf einem Windows-Rechner einzurichten, können Sie folgendermaßen vorgehen:
+	\begin{itemize}
+		\item Laden Sie Anaconda mit Python 3.7 von www.anaconda.com herunter und installieren Sie es.
+		\item Starten Sie den Anaconda Navigator.
+	\end{itemize}
+\end{aufgabe}
+
+\end{document}
