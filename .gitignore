@@ -4,3 +4,6 @@ Studienarbeiten_WS2021/
 Studienarbeiten_WS2122/
 Projektarbeiten/
 *.pdf
+.vscode/
+Vorlesung\__pycache__/
+Vorlesung\.ipynb_checkpoints/
