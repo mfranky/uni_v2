@@ -49,7 +49,23 @@ Für den leichten und problemfreien Einstieg rate ich zur ersten Option.
 
 Um für dieses umfangreiche Programm ausreichend Zeit zu haben, werden wir auch einen Teil der Praktikumsstunde ab 11:45 Uhr nutzen. Ein Praktikum im eigentlichen Sinne findet aber diese Woche noch nicht statt. Alle Inhalte finden Sie auch online, die Videos sind im OneNote verlinkt.
 
+## Woche 3
+Diese Woche arbeiten wir weiter mit der Estimator API von Scikit-Learn, konkret betrachten wir ein noch ausstehendes Beispiel zu *unsupervised learning*:
 
+Wir wollen die Iris-Daten clustern, sprich die vorhandenen Daten in drei Gruppen aufteilen, ohne dass wir spezifizieren, wie diese Gruppen ("Cluster") aussehen. Bevor wir das machen, wollen wir erst einmal einen Eindruck bekommen, ob ein solches Clustering überhaupt vielversprechend ist, d.h. ob wir erwarten dürfen, dass die erzeugten Cluster mit den real vorliegenden unterschiedlichen Spezies übereinstimmen. Dazu führen wir eine Dimensionsreduktion mittels PCA ("Principal Component Analysis", Details in einer späteren Vorlesung) durch, die ursprünglich vierdimensionalen Iris-Daten sollen auf die wesentlichen zwei Dimensionen reduziert werden. Die so aufbereiteten Daten können wir dann visuell untersuchen. Dieses Beispiel finden Sie in [diesem Notebook](Vorlesung/02.03_API_unsupervised.ipynb). 
+ 
+
+Wir untersuchen auch die Frage, welche Fehler bei einem ML Model relevant sind und wie Modelle bewertet werden können, siehe [OneNote][onenote] Kapitel 3 und 3.1. Diese Überlegungen setzen wir dann wieder im Iris-Beispiel um, siehe [Notebook](Vorlesung/03.01_Accuracy.ipynb).
+ 
+### Praktikum
+Im Praktikum werden diese Inhalte anhand verschiedener Clustering-Algorithmen u.a. am Beispiel der Iris-Daten vertieft. Die Aufgabenstellung des Praktikums finden Sie (inkl. Erläuterung per Video) in unten stehendem Notebook. Auch einen Lösungsvorschlag (inkl. Erläuterung per Video) finden Sie unten.
+- [Aufgabenstellung](Praktikum/Pr1_Clustering_blank.ipynb)
+- [Lösungsvorschlag](Praktikum/Pr1_Clustering_sol.ipynb) 
+ 
+**Somit können Sie auch das Praktikum ggf. rein online absolvieren (hier bietet es sich vielleicht noch mehr an als beim Vorlesungsteil).**
+
+Ich rate Ihnen, wirklich zu versuchen, die Aufgaben zu lösen OHNE in den Lösungsvorschlag zu schauen. Nutzen Sie gerne alle anderen verfügbaren Quellen, insbesondere auch die Suchmaschine Ihrer Wahl und die [Scikit-Learn Dokumentation][sklearn_user_guide]. So lernen Sie, mit immer verfügbaren Quellen Aufgaben zu lösen - das ist aus meiner Sicht ein wesentliches Ziel der Veranstaltung!
 
 
 [onenote]: https://1drv.ms/u/s!AhdJTnngugIpjTsnJWCmXJsxpBf3?e=6de34K
+[sklearn_user_guide]: https://scikit-learn.org/stable/user_guide.html
