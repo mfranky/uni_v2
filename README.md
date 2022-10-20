@@ -49,6 +49,8 @@ Für den leichten und problemfreien Einstieg rate ich zur ersten Option.
 
 Um für dieses umfangreiche Programm ausreichend Zeit zu haben, werden wir auch einen Teil der Praktikumsstunde ab 11:45 Uhr nutzen. Ein Praktikum im eigentlichen Sinne findet aber diese Woche noch nicht statt. Alle Inhalte finden Sie auch online, die Videos sind im OneNote verlinkt.
 
+Wie erwähnt findet heute um 15 Uhr ein möglicherweise für Sie interessantes Kolloquium unseres Masterstudiengangs Computationa Engineering statt, gerne können Sie [hier](https://hm-edu.zoom.us/j/65474372368?pwd=WjhicDdqalRaQW5OTnltR0E1eWx6dz09) beitreten.
+
 ## Woche 3
 Diese Woche arbeiten wir weiter mit der Estimator API von Scikit-Learn, konkret betrachten wir ein noch ausstehendes Beispiel zu *unsupervised learning*:
 
