@@ -18,21 +18,33 @@ Im Rahmen dieser Veranstaltung empfehle ich insbesondere folgende Werke:
 - VanderPlas, Python Data Science Handbook, O'Reilly — sehr intuitive Darstellung einiger Algorithmen, [im Volltext verfügbar](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - Shalev-Schwartz, Ben-David, Understanding Machine Learning, Cambridge University Press, 2014 — genaue Einführung in die Thematik inkl. Lerntheorie und genauen Hintergründen der Algorithmen, [im Volltext verfügbar](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning)
 
-## Woche 1
-In der Einführung besprechen wir:
-- Verhältnis verschiedener relevanter Begriffe zueinander
-- Was ist "Lernen"?
-- Definition(en) vom Machine Learning
-- Wann ist ML sinnvoll?
-- Arten von ML
-- ERM ("Empirical Risk Minimization") Prinzip
-- Overfitting
+## Woche 4
+Wir vertiefen die Überlungen zur Modellbewertung der letzten Woche durch eine konkrete Anwendung auf das Iris-Beispiel um, siehe [Notebook](Vorlesung/03.01_Accuracy.ipynb). Eine mit der Modellbewertung eng verwandte Fragestellung ist die der Modellwahl: *Wenn die Performance des Modells nicht befriedigend ist, was kann unternommen werden?*
+Prinzipiell kann ein komplexeres (oder ein weniger komplexes) Modell verwendet werden und es können mehr (oder weniger) Daten eingesetzt werden. Die weitere (und sehr wichtige) Möglichkeit, andere Features zu verwenden, klammern wir für die Betrachtung diese Woche noch aus.
 
-Die entsprechenden Notizen finden Sie im [OneNote Notebook][onenote].
+Detailliert untersuchen wir mit Hilfe von Validierungskurven die Abhängigkeit der Modellperformance von der gegebenen Kapazität des Modells. Anschließend untersuchen wir die Auswirkung der Menge der Trainingsdaten mit Hilfe von Trainingskurven, siehe [Notebook](Vorlesung/03.02_Modellwahl.ipynb).
 
-❗ Um insbesondere die Themen ERM und Overfitting zu vertiefen und ein Gefühl dafür zu vermitteln, dass all diese Themen auf einem soliden mathematischen Fundament stehen, arbeiten Sie bitte Kapitel 2 "A gentle start" von [Understanding Machine Learning](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf) durch. Wir werden dies nächste Woche besprechen.   
+### Praktikum
+Im Praktikum geht es um die Erkennung handschriftlicher Ziffern. Die Daten sollen mit Hilfe von Dimensionsreduktion zuerst untersucht werden, um ein Gefühl dafür zu bekommen, wie kompliziert eine derartige Klassifizierungsaufgabe wohl ist. Zur Modellvalidierung soll Cross Validation verwendet werden. Als Zusatz wird der Aspekt der "Stratification", also der "statistischen Ausbalancierung" angesprochen.
 
-Im Praktikum gebe ich außerdem einen Crash-Kurs in Python. Im Rahmen dessen werde ich auch Googles Cloud-Computing Umgebung [Colab](https://colab.research.google.com/) kurz präsentieren. Das entsprechende [Jupyter Notebook](Tutorials/python_tutorial.ipynb) stammt aus dem Kurs [CS231n](http://cs231n.stanford.edu/).
+
+
+## Woche 3
+Diese Woche arbeiten wir weiter mit der Estimator API von Scikit-Learn, konkret betrachten wir ein noch ausstehendes Beispiel zu *unsupervised learning*:
+
+Wir wollen die Iris-Daten clustern, sprich die vorhandenen Daten in drei Gruppen aufteilen, ohne dass wir spezifizieren, wie diese Gruppen ("Cluster") aussehen. Bevor wir das machen, wollen wir erst einmal einen Eindruck bekommen, ob ein solches Clustering überhaupt vielversprechend ist, d.h. ob wir erwarten dürfen, dass die erzeugten Cluster mit den real vorliegenden unterschiedlichen Spezies übereinstimmen. Dazu führen wir eine Dimensionsreduktion mittels PCA ("Principal Component Analysis", Details in einer späteren Vorlesung) durch, die ursprünglich vierdimensionalen Iris-Daten sollen auf die wesentlichen zwei Dimensionen reduziert werden. Die so aufbereiteten Daten können wir dann visuell untersuchen. Dieses Beispiel finden Sie in [diesem Notebook](Vorlesung/02.03_API_unsupervised.ipynb). 
+ 
+
+Wir untersuchen auch die Frage, welche Fehler bei einem ML Model relevant sind und wie Modelle bewertet werden können, siehe [OneNote][onenote] Kapitel 3 und 3.1. Diese Überlegungen setzen vertiefen wir nächste Woche in einem Beispiel mit den Iris-Daten. 
+ 
+### Praktikum
+Im Praktikum werden diese Inhalte anhand verschiedener Clustering-Algorithmen u.a. am Beispiel der Iris-Daten vertieft. Die Aufgabenstellung des Praktikums finden Sie (inkl. Erläuterung per Video) in unten stehendem Notebook. Auch einen Lösungsvorschlag (inkl. Erläuterung per Video) finden Sie unten.
+- [Aufgabenstellung](Praktikum/Pr1_Clustering_blank.ipynb)
+- [Lösungsvorschlag](Praktikum/Pr1_Clustering_sol.ipynb) 
+ 
+**Somit können Sie auch das Praktikum ggf. rein online absolvieren (hier bietet es sich vielleicht noch mehr an als beim Vorlesungsteil).**
+
+Ich rate Ihnen, wirklich zu versuchen, die Aufgaben zu lösen OHNE in den Lösungsvorschlag zu schauen. Nutzen Sie gerne alle anderen verfügbaren Quellen, insbesondere auch die Suchmaschine Ihrer Wahl und die [Scikit-Learn Dokumentation][sklearn_user_guide]. So lernen Sie, mit immer verfügbaren Quellen Aufgaben zu lösen - das ist aus meiner Sicht ein wesentliches Ziel der Veranstaltung!
 
 ## Woche 2
 Diese Woche betrachten wir 
@@ -51,22 +63,25 @@ Um für dieses umfangreiche Programm ausreichend Zeit zu haben, werden wir auch 
 
 Wie erwähnt findet heute um 15 Uhr ein möglicherweise für Sie interessantes Kolloquium unseres Masterstudiengangs Computationa Engineering statt, gerne können Sie [hier](https://hm-edu.zoom.us/j/65474372368?pwd=WjhicDdqalRaQW5OTnltR0E1eWx6dz09) beitreten.
 
-## Woche 3
-Diese Woche arbeiten wir weiter mit der Estimator API von Scikit-Learn, konkret betrachten wir ein noch ausstehendes Beispiel zu *unsupervised learning*:
 
-Wir wollen die Iris-Daten clustern, sprich die vorhandenen Daten in drei Gruppen aufteilen, ohne dass wir spezifizieren, wie diese Gruppen ("Cluster") aussehen. Bevor wir das machen, wollen wir erst einmal einen Eindruck bekommen, ob ein solches Clustering überhaupt vielversprechend ist, d.h. ob wir erwarten dürfen, dass die erzeugten Cluster mit den real vorliegenden unterschiedlichen Spezies übereinstimmen. Dazu führen wir eine Dimensionsreduktion mittels PCA ("Principal Component Analysis", Details in einer späteren Vorlesung) durch, die ursprünglich vierdimensionalen Iris-Daten sollen auf die wesentlichen zwei Dimensionen reduziert werden. Die so aufbereiteten Daten können wir dann visuell untersuchen. Dieses Beispiel finden Sie in [diesem Notebook](Vorlesung/02.03_API_unsupervised.ipynb). 
- 
 
-Wir untersuchen auch die Frage, welche Fehler bei einem ML Model relevant sind und wie Modelle bewertet werden können, siehe [OneNote][onenote] Kapitel 3 und 3.1. Diese Überlegungen setzen wir dann wieder im Iris-Beispiel um, siehe [Notebook](Vorlesung/03.01_Accuracy.ipynb).
- 
-### Praktikum
-Im Praktikum werden diese Inhalte anhand verschiedener Clustering-Algorithmen u.a. am Beispiel der Iris-Daten vertieft. Die Aufgabenstellung des Praktikums finden Sie (inkl. Erläuterung per Video) in unten stehendem Notebook. Auch einen Lösungsvorschlag (inkl. Erläuterung per Video) finden Sie unten.
-- [Aufgabenstellung](Praktikum/Pr1_Clustering_blank.ipynb)
-- [Lösungsvorschlag](Praktikum/Pr1_Clustering_sol.ipynb) 
- 
-**Somit können Sie auch das Praktikum ggf. rein online absolvieren (hier bietet es sich vielleicht noch mehr an als beim Vorlesungsteil).**
+## Woche 1
+In der Einführung besprechen wir:
+- Verhältnis verschiedener relevanter Begriffe zueinander
+- Was ist "Lernen"?
+- Definition(en) vom Machine Learning
+- Wann ist ML sinnvoll?
+- Arten von ML
+- ERM ("Empirical Risk Minimization") Prinzip
+- Overfitting
 
-Ich rate Ihnen, wirklich zu versuchen, die Aufgaben zu lösen OHNE in den Lösungsvorschlag zu schauen. Nutzen Sie gerne alle anderen verfügbaren Quellen, insbesondere auch die Suchmaschine Ihrer Wahl und die [Scikit-Learn Dokumentation][sklearn_user_guide]. So lernen Sie, mit immer verfügbaren Quellen Aufgaben zu lösen - das ist aus meiner Sicht ein wesentliches Ziel der Veranstaltung!
+Die entsprechenden Notizen finden Sie im [OneNote Notebook][onenote].
+
+❗ Um insbesondere die Themen ERM und Overfitting zu vertiefen und ein Gefühl dafür zu vermitteln, dass all diese Themen auf einem soliden mathematischen Fundament stehen, arbeiten Sie bitte Kapitel 2 "A gentle start" von [Understanding Machine Learning](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf) durch. Wir werden dies nächste Woche besprechen.   
+
+Im Praktikum gebe ich außerdem einen Crash-Kurs in Python. Im Rahmen dessen werde ich auch Googles Cloud-Computing Umgebung [Colab](https://colab.research.google.com/) kurz präsentieren. Das entsprechende [Jupyter Notebook](Tutorials/python_tutorial.ipynb) stammt aus dem Kurs [CS231n](http://cs231n.stanford.edu/).
+
+
 
 
 [onenote]: https://1drv.ms/u/s!AhdJTnngugIpjTsnJWCmXJsxpBf3?e=6de34K
