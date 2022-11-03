@@ -17,18 +17,31 @@ Im Rahmen dieser Veranstaltung empfehle ich insbesondere folgende Werke:
 - Goodfellow, Deep Learning (Adaptive Computation and Machine Learning), MIT Press (2016) — DAS einführende Standardwerk zu Deep Learning, [im Volltext verfügbar](http://www.deeplearningbook.org)
 - VanderPlas, Python Data Science Handbook, O'Reilly — sehr intuitive Darstellung einiger Algorithmen, [im Volltext verfügbar](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - Shalev-Schwartz, Ben-David, Understanding Machine Learning, Cambridge University Press, 2014 — genaue Einführung in die Thematik inkl. Lerntheorie und genauen Hintergründen der Algorithmen, [im Volltext verfügbar](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning)
+---
+## Woche 5
+Wir führen die Überlegungen zur Modellwahl von letzter Woche fort. Insbesondere betrachten wir die Abhängigkeit der Modellperformance von der  Kapazität des Modells durch sog. Validierungskurven. Anschließend untersuchen wir die Auswirkung der Menge der Trainingsdaten mit Hilfe von Trainingskurven, siehe [Notebook](Vorlesung/03.02_Modellwahl.ipynb).
+
+Außerdem beginnen wir mit dem wichtigen Thema *Feature Engineering*. Damit ist gemeint, dass aus vorliegenden Daten erst einmal Features abgeleitet werden, bevor diese dann als Input für ML-Modelle verwendet werden können. Dies ist offensichtlich nötig, wenn der Input z.B. aus kategorischen Daten oder aus Text besteht, siehe [Notebook](Vorlesung/03.03_Feature_Eng.ipynb).
+
+### Praktikum
+Im Praktikum behandeln wir Cross Validation, um für unterschiedliche Modell die optimalen Hyperparameter zu bestimmen:
+- [Aufgabenstellung](Praktikum/Pr3_CrossVal_GridSearch_blank.ipynb)
+- [Lösungsvorschlag](Praktikum/Pr3_CrossVal_GridSearch_sol.ipynb)
+
+---
 
 ## Woche 4
 Wir vertiefen die Überlungen zur Modellbewertung der letzten Woche durch eine konkrete Anwendung auf das Iris-Beispiel um, siehe [Notebook](Vorlesung/03.01_Accuracy.ipynb). Eine mit der Modellbewertung eng verwandte Fragestellung ist die der Modellwahl: *Wenn die Performance des Modells nicht befriedigend ist, was kann unternommen werden?*
 Prinzipiell kann ein komplexeres (oder ein weniger komplexes) Modell verwendet werden und es können mehr (oder weniger) Daten eingesetzt werden. Die weitere (und sehr wichtige) Möglichkeit, andere Features zu verwenden, klammern wir für die Betrachtung diese Woche noch aus.
 
-Detailliert untersuchen wir mit Hilfe von Validierungskurven die Abhängigkeit der Modellperformance von der gegebenen Kapazität des Modells. Anschließend untersuchen wir die Auswirkung der Menge der Trainingsdaten mit Hilfe von Trainingskurven, siehe [Notebook](Vorlesung/03.02_Modellwahl.ipynb).
+Detailliert untersuchen wir mit Hilfe von Validierungskurven die Abhängigkeit der Modellperformance von der gegebenen Kapazität des Modells, siehe [Notebook](Vorlesung/03.02_Modellwahl.ipynb).
 
 ### Praktikum
 Im Praktikum geht es um die Erkennung handschriftlicher Ziffern. Die Daten sollen mit Hilfe von Dimensionsreduktion zuerst untersucht werden, um ein Gefühl dafür zu bekommen, wie kompliziert eine derartige Klassifizierungsaufgabe wohl ist. Zur Modellvalidierung soll Cross Validation verwendet werden. Als Zusatz wird der Aspekt der "Stratification", also der "statistischen Ausbalancierung" angesprochen.
 
-
-
+- [Aufgabenstellung](Praktikum/Pr2_handwritten_digits_blank.ipynb)
+- [Lösungsvorschlag](Praktikum/Pr2_handwritten_digits_sol.ipynb) 
+---
 ## Woche 3
 Diese Woche arbeiten wir weiter mit der Estimator API von Scikit-Learn, konkret betrachten wir ein noch ausstehendes Beispiel zu *unsupervised learning*:
 
@@ -46,6 +59,7 @@ Im Praktikum werden diese Inhalte anhand verschiedener Clustering-Algorithmen u.
 
 Ich rate Ihnen, wirklich zu versuchen, die Aufgaben zu lösen OHNE in den Lösungsvorschlag zu schauen. Nutzen Sie gerne alle anderen verfügbaren Quellen, insbesondere auch die Suchmaschine Ihrer Wahl und die [Scikit-Learn Dokumentation][sklearn_user_guide]. So lernen Sie, mit immer verfügbaren Quellen Aufgaben zu lösen - das ist aus meiner Sicht ein wesentliches Ziel der Veranstaltung!
 
+---
 ## Woche 2
 Diese Woche betrachten wir 
 - ein erstes Beispiel, welches gem. der Definition von Mitchell (vgl. erste Vorlesung) als "maschinelles Lernen" bezeichnet werden kann: die **lineare Regression**. Wir begründen, warum lineare Regression eine (einfache) Methode des maschinellen Lernens ist und betrachten ein ganz [konkretes Beispiel](Vorlesung/01_lin_reg.ipynb).
@@ -63,7 +77,7 @@ Um für dieses umfangreiche Programm ausreichend Zeit zu haben, werden wir auch 
 
 Wie erwähnt findet heute um 15 Uhr ein möglicherweise für Sie interessantes Kolloquium unseres Masterstudiengangs Computationa Engineering statt, gerne können Sie [hier](https://hm-edu.zoom.us/j/65474372368?pwd=WjhicDdqalRaQW5OTnltR0E1eWx6dz09) beitreten.
 
-
+---
 
 ## Woche 1
 In der Einführung besprechen wir:
