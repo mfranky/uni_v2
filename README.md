@@ -21,7 +21,7 @@ Im Rahmen dieser Veranstaltung empfehle ich insbesondere folgende Werke:
 ## Woche 5
 Wir führen die Überlegungen zur Modellwahl von letzter Woche fort. Insbesondere betrachten wir die Abhängigkeit der Modellperformance von der  Kapazität des Modells durch sog. Validierungskurven. Anschließend untersuchen wir die Auswirkung der Menge der Trainingsdaten mit Hilfe von Trainingskurven, siehe [Notebook](Vorlesung/03.02_Modellwahl.ipynb).
 
-Außerdem beginnen wir mit dem wichtigen Thema *Feature Engineering*. Damit ist gemeint, dass aus vorliegenden Daten erst einmal Features abgeleitet werden, bevor diese dann als Input für ML-Modelle verwendet werden können. Dies ist offensichtlich nötig, wenn der Input z.B. aus kategorischen Daten oder aus Text besteht, siehe [Notebook](Vorlesung/03.03_Feature_Eng.ipynb).
+Außerdem beginnen wir mit dem wichtigen Thema *Feature Engineering*. Damit ist gemeint, dass aus vorliegenden Daten erst einmal Features abgeleitet werden, bevor diese dann als Input für ML-Modelle verwendet werden können. Dies ist offensichtlich nötig, wenn der Input z.B. aus kategorischen Daten oder aus Text besteht, siehe [Notebook](Vorlesung/03.03_Feature_Eng.ipynb). Das Kapitel "Abgeleitete Features" besprechen wir nächste Woche.
 
 ### Praktikum
 Im Praktikum behandeln wir Cross Validation, um für unterschiedliche Modell die optimalen Hyperparameter zu bestimmen:
