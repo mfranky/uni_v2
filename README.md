@@ -18,6 +18,17 @@ Im Rahmen dieser Veranstaltung empfehle ich insbesondere folgende Werke:
 - VanderPlas, Python Data Science Handbook, O'Reilly — sehr intuitive Darstellung einiger Algorithmen, [im Volltext verfügbar](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - Shalev-Schwartz, Ben-David, Understanding Machine Learning, Cambridge University Press, 2014 — genaue Einführung in die Thematik inkl. Lerntheorie und genauen Hintergründen der Algorithmen, [im Volltext verfügbar](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning)
 ---
+
+## Woche 6
+Wir besprechen den wichtigen Aspekt, aus vorliegenden Daten neue Features zu generieren, siehe Abschnitt "Abgeleitete Features" im [Notebook](Vorlesung/03.03_Feature_Eng.ipynb).
+
+Außerdem starten betrachten wir eine erste Modellklasse detaillierter: [Naive Bayes](Vorlesung/04.01_Naive_Bayes.ipynb)
+
+### Praktikum
+Im Praktikum behandeln wir die in der Machine Learning Welt sehr populäre "Titanic-Challenge". Aus den Personendaten der einzelnen Passagiere der Titanic soll vorhergesagt werden, wer die Schiffskatastrophe überlebt:
+- [Aufgabenstellung](Praktikum/Pr4_Titanic_blank.ipynb)
+- [Lösungsvorschlag](Praktikum/Pr4_Titanic_sol.ipynb)
+---
 ## Woche 5
 Wir führen die Überlegungen zur Modellwahl von letzter Woche fort. Insbesondere betrachten wir die Abhängigkeit der Modellperformance von der  Kapazität des Modells durch sog. Validierungskurven. Anschließend untersuchen wir die Auswirkung der Menge der Trainingsdaten mit Hilfe von Trainingskurven, siehe [Notebook](Vorlesung/03.02_Modellwahl.ipynb).
 
