@@ -23,6 +23,7 @@ Im Rahmen dieser Veranstaltung empfehle ich insbesondere folgende Werke:
 Wir besprechen den wichtigen Aspekt, aus vorliegenden Daten neue Features zu generieren, siehe Abschnitt "Abgeleitete Features" im [Notebook](Vorlesung/03.03_Feature_Eng.ipynb).
 
 Außerdem starten betrachten wir eine erste Modellklasse detaillierter: [Naive Bayes](Vorlesung/04.01_Naive_Bayes.ipynb)
+Hiervon haben wir das allgemeine Prinzip behandelt, das Kapitel "Gaussian Naive Bayes" starten wir nächste Woche.
 
 ### Praktikum
 Im Praktikum behandeln wir die in der Machine Learning Welt sehr populäre "Titanic-Challenge". Aus den Personendaten der einzelnen Passagiere der Titanic soll vorhergesagt werden, wer die Schiffskatastrophe überlebt:
