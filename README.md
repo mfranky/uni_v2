@@ -19,6 +19,15 @@ Im Rahmen dieser Veranstaltung empfehle ich insbesondere folgende Werke:
 - Shalev-Schwartz, Ben-David, Understanding Machine Learning, Cambridge University Press, 2014 — genaue Einführung in die Thematik inkl. Lerntheorie und genauen Hintergründen der Algorithmen, [im Volltext verfügbar](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning)
 ---
 
+## Woche 7
+Diese Woche nehmen wir uns bewusst weniger vor um Zeit für ausführliche Diskussionen und das Praktikum zu haben. Wir besprechen detaillierter die Klasse der [Naive Bayes Modelle](Vorlesung/04.01_Naive_Bayes.ipynb).
+
+### Praktikum
+Wir bauen ein (lineares) Modell, dass den Fahrradverkehr über die [Fremont Bridge in Seattle](https://en.wikipedia.org/wiki/Fremont_Bridge_(Seattle)) modelliert. Datenaufbereitung, Erzeugung von Features und Hinzufügen weiterer Daten stehen hier im Mittelpunkt.
+- [Aufgabenstellung](Praktikum/Pr5_Lineare_Modelle_blank.ipynb)
+- [Lösungsvorschlag](Praktikum/Pr5_Lineare_Modelle_sol.ipynb)
+---
+
 ## Woche 6
 Wir besprechen den wichtigen Aspekt, aus vorliegenden Daten neue Features zu generieren, siehe Abschnitt "Abgeleitete Features" im [Notebook](Vorlesung/03.03_Feature_Eng.ipynb).
 
