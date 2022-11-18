@@ -22,6 +22,8 @@ Im Rahmen dieser Veranstaltung empfehle ich insbesondere folgende Werke:
 ## Woche 7
 Diese Woche nehmen wir uns bewusst weniger vor um Zeit für ausführliche Diskussionen und das Praktikum zu haben. Wir besprechen detaillierter die Klasse der [Naive Bayes Modelle](Vorlesung/04.01_Naive_Bayes.ipynb).
 
+Die Naive Bayes Modelle haben wir komplett besprochen.
+
 ### Praktikum
 Wir bauen ein (lineares) Modell, dass den Fahrradverkehr über die [Fremont Bridge in Seattle](https://en.wikipedia.org/wiki/Fremont_Bridge_(Seattle)) modelliert. Datenaufbereitung, Erzeugung von Features und Hinzufügen weiterer Daten stehen hier im Mittelpunkt.
 - [Aufgabenstellung](Praktikum/Pr5_Lineare_Modelle_blank.ipynb)
