@@ -19,6 +19,15 @@ Im Rahmen dieser Veranstaltung empfehle ich insbesondere folgende Werke:
 - Shalev-Schwartz, Ben-David, Understanding Machine Learning, Cambridge University Press, 2014 — genaue Einführung in die Thematik inkl. Lerntheorie und genauen Hintergründen der Algorithmen, [im Volltext verfügbar](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning)
 ---
 
+## Woche 8
+Wir besprechen [lineare Modelle](Vorlesung/04.02_Lineare_Modelle.ipynb) allgemein und erläutern daran verschiedene Möglichkeiten zur Regularisierung. Konkret betrachten wir *Ridge* und *Lasso*, d.h. die $L_2$ und $L_1$ Regularisierung. Außerdem betrachten wir, wie Multi-Class Klassifizierung funktioniert.
+
+### Praktikum
+Wir setzen das Praktikum der letzen Woche fort. Zuerst versuchen wir, die vorleigenden Daten besser zu treffen. Im zweiten Teil erstellen wir ein Vorhersagemodell, welches basierend auf historischen Daten den Fahrradverkehr auf der Fremont Bridge vorhersagen kann.
+- [Aufgabenstellung](Praktikum/Pr6_Lineare_Modelle_blank.ipynb)
+- [Lösungsvorschlag](Praktikum/Pr5_6_Lineare_Modelle_sol.ipynb)
+---
+
 ## Woche 7
 Diese Woche nehmen wir uns bewusst weniger vor um Zeit für ausführliche Diskussionen und das Praktikum zu haben. Wir besprechen detaillierter die Klasse der [Naive Bayes Modelle](Vorlesung/04.01_Naive_Bayes.ipynb).
 
