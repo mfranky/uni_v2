@@ -19,6 +19,16 @@ Im Rahmen dieser Veranstaltung empfehle ich insbesondere folgende Werke:
 - Shalev-Schwartz, Ben-David, Understanding Machine Learning, Cambridge University Press, 2014 — genaue Einführung in die Thematik inkl. Lerntheorie und genauen Hintergründen der Algorithmen, [im Volltext verfügbar](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning)
 ---
 
+## Woche 9
+Wir besprechen [Support Vector Machines](Vorlesung/04.03_SVM.ipynb) und beleuchten knapp das Konzept der Datenanreicherung bzw. den "Kernel-Trick".
+
+### Praktkikum
+In dieser Session sollen Sie die Möglichkeit bekommen, ein komplettes Machine Learning Projekt von Anfang bis Ende durchzuführen. Dazu verwenden wir das sehr gut beschriebene Beispiel einer Regressionsanalyse von Immobilienpreisen aus dem Buch *Hands-on machine learning with Scikit-Learn, Keras & TensorFlow von A. Géron*. Eine Kopie eines Großteils des *Chapter 2 – End-to-end Machine Learning project* finden Sie bei [hier](Praktikum/Geron%20-%20Hands-on-ML%20chap_2.pdf). 
+Ziel ist es, dass Sie dieses Projekt durcharbeiten/nachvollziehen um sich speziell auf Ihr eigenes Projekt im Rahmen der Studienarbeit vorzubereiten bzw. um dafür eine weitere Referenz zu haben.
+- [Beschreibung: Chapter 2 – End-to-end Machine Learning project](Praktikum/Geron%20-%20Hands-on-ML%20chap_2.pdf)
+- [Zugehöriges Jupyter Notebook](Praktikum/Pr7_End_to_end_ML_project.ipynb)
+---
+
 ## Woche 8
 Wir besprechen [lineare Modelle](Vorlesung/04.02_Lineare_Modelle.ipynb) allgemein und erläutern daran verschiedene Möglichkeiten zur Regularisierung. Konkret betrachten wir *Ridge* und *Lasso*, d.h. die $`L_2`$ und $`L_1`$ Regularisierung. Außerdem betrachten wir, wie Multi-Class Klassifizierung funktioniert.
 
