@@ -19,6 +19,17 @@ Im Rahmen dieser Veranstaltung empfehle ich insbesondere folgende Werke:
 - Shalev-Schwartz, Ben-David, Understanding Machine Learning, Cambridge University Press, 2014 — genaue Einführung in die Thematik inkl. Lerntheorie und genauen Hintergründen der Algorithmen, [im Volltext verfügbar](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning)
 ---
 
+## Woche 10
+Wir ergänzen das Beispiel "Gesichtserkennung" zu den SVMs.
+Danach besprechen wir [Entscheidungsbäume](Vorlesung/04.04_Random_Forests.ipynb) (*Decision Trees*) und darauf aufbauend - anhand des *Bagging* Prinzips - die sog. *Random Forests*. In diesem Zusammenhang betrachten wir sowohl Klassifizierungs- als auch Regressionsprobleme.
+
+### Praktikum
+Im Praktikum versuchen wir uns anhand der berühmten [MNIST-Daten](http://yann.lecun.com/exdb/mnist/) eine Multiclass-Klassifizierung zu meistern. Wir erstellen dazu ein Ensemble von verschiedenen Methoden und verwenden Hard- und Soft-Voting. Damit werden wir einen Genauigkeit von knapp 97% erzielen können.
+- [Aufgabenstellung](Praktikum/Pr8_MNIST_blank.ipynb)
+- [Lösungsvorschlag](Praktikum/Pr8_MNIST_sol.ipynb)
+
+---
+
 ## Woche 9
 Wir besprechen [Support Vector Machines](Vorlesung/04.03_SVM.ipynb) und beleuchten knapp das Konzept der Datenanreicherung bzw. den "Kernel-Trick".
 
