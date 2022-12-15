@@ -19,6 +19,16 @@ Im Rahmen dieser Veranstaltung empfehle ich insbesondere folgende Werke:
 - Shalev-Schwartz, Ben-David, Understanding Machine Learning, Cambridge University Press, 2014 — genaue Einführung in die Thematik inkl. Lerntheorie und genauen Hintergründen der Algorithmen, [im Volltext verfügbar](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning)
 ---
 
+## Woche 11
+**WICHTIG:** Diese Woche findet **keine** Präsenzveranstaltung statt.
+
+Ich bitte Sie, das Thema [Principal Component Analysis (PCA)](Vorlesung/04.05_PCA.ipynb) anhand des Notebooks und des darin verlinkten Videos zu erarbeiten. Anschließend stehe ich Ihnen ab 11:45 Uhr via [Zoom](https://hm-edu.zoom.us/j/69101999484?pwd=RkZFWU5Ic1l6U3VINEpvZmxMZGhuQT09) für Fragen bzw. zur Diskussion des Themas zur Verfügung.
+
+### Praktikum
+Auf mehrfache Anregung hin stelle ich Ihnen diese Woche Zeit zur Verfügung, um das zugegebenermaßen sehr umfangreiche [Praktikum 7 (End-to-end ML project)](Praktikum/Pr7_End_to_end_ML_project.ipynb) weiter zu bearbeiten. Dies ist eine optimale Vorbereitung für die Studienarbeit, deren Themen nächste Woche gestellt werden.
+
+---
+
 ## Woche 10
 Wir ergänzen das Beispiel "Gesichtserkennung" zu den SVMs.
 Danach besprechen wir [Entscheidungsbäume](Vorlesung/04.04_Random_Forests.ipynb) (*Decision Trees*) und darauf aufbauend - anhand des *Bagging* Prinzips - die sog. *Random Forests*. In diesem Zusammenhang betrachten wir sowohl Klassifizierungs- als auch Regressionsprobleme.
