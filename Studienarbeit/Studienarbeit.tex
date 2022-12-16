@@ -1,0 +1,112 @@
+%!TEX TS-program = lualatex
+\documentclass[11pt,a4paper]{article}
+
+\input{../../latex_general/parameter.tex}
+\usepackage{subcaption}
+
+
+
+% ************** Parameter aktuelles Blatt *********
+\newcommand{\veranstaltung}{Einführung in künstliche Intelligenz und Machine Learning}
+\newcommand{\preaufgabe}{A}
+\setcounter{aufgabe}{0}
+\newcommand{\blatt}{}
+\newcommand{\datum}{\today}
+% **************************************************
+
+
+
+\begin{document}
+\header[Studienarbeit]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Aufgabenstellung}
+Im Rahmen dieser Studienarbeit können Sie sich entweder 
+\begin{itemize}
+	\item selbstständig ein Thema wählen \emph{oder}
+	\item \emph{eines} der folgenden bearbeiten.
+\end{itemize}
+
+\subsection*{Klassifizierung}
+	\begin{enumerate}
+		\item Bearbeiten Sie die Kaggle Competition \href{https://www.kaggle.com/c/reducing-commercial-aviation-fatalities}{"`Reducing Commercial Aviation Fatalities"'}.
+		\item Verbessern Sie das in Praktikum 4 erstellte Modell zur Klassifizierung der Passagiere der Titanic in Überlebende und Opfer der Schiffskatastrophe. Mögliche Anregungen finden Sie z.B. in der zugehörigen \href{https://www.kaggle.com/c/titanic}{Kaggle Competition}.
+	\end{enumerate}
+\subsection*{Regression}
+	\begin{enumerate}
+		\setcounter{enumi}{2}
+		\item Bearbeiten Sie die Kaggle Competition \href{https://www.kaggle.com/c/bike-sharing-demand}{"`Bike Sharing Demand''}.
+		\item Erstellen Sie ein Modell zur Vorhersage von Gebrauchtwagenpreisen basierend auf dem Datensatz \href{https://syncandshare.lrz.de/dl/fiAzFNmK5f5d9ftPZHeaC2d/vehicles.csv.zip}{"`Used Cars Dataset"'}, dieser ist ebenfalls alternativ über \href{https://www.kaggle.com/austinreese/craigslist-carstrucks-data}{Kaggle} verfügbar.
+		\item Verbessern Sie das in Praktikum 5/6 erstellte Modell zur Vorhersage des Fahrradverkehrs über die Seattle Fremont Bridge. Mögliche Anregungen finden Sie z.B. in \href{https://jakevdp.github.io/PythonDataScienceHandbook/05.06-linear-regression.html}{J. VanderPlas, Python Data Science Handbook}.
+	\end{enumerate}
+\subsection*{Deep Dives}
+Gerne biete ich Ihnen auch an, ein Verfahren oder eine Verfahrensklasse näher zu beleuchten und im Stile  meiner "`Deep Dives"' (Kapitel 4 der Vorlesung) auszuarbeiten. Solche ein Deep Dive sollte die Funktionsweise des gewählten Verfahrens veranschaulichen (hier scheinen mir Grafiken besonders geeignet bzw. wichtig zu sein) und ein (kleineres) Anwendungsbeispiel enthalten. Mögliche Verfahren(sklassen) sind beispielsweise:
+\begin{enumerate}
+	\setcounter{enumi}{5}
+	\item Gaussian Mixture Models
+	\item Manifold Learning
+	\item Ensemble Methoden: Bagging, Boosting
+\end{enumerate}
+Im Rahmen eines solchen Deep Dive Themas ist es auch möglich, die Mathematik hinter einem Verfahren zu erläutern:
+\begin{itemize}
+	\item Welches Optimierungsproblem ist hier zu lösen?
+	\item Wie wird dieses Problem algorithmisch angegangen?
+	\item Welche Anforderungen an die Daten gibt es?
+\end{itemize}
+
+\section*{Allgemeine Anforderungen}
+\subsection*{Bestandteile}
+Sollten Sie ein eigenes Thema wählen, so muss dieses mindestens eines der folgenden Modelle beinhalten:
+\begin{itemize}
+	\item Modell zur Regression
+	\item Modell zur Klassifizierung
+	\item Modell zur Bildung von Clustern oder zur Dimensionsreduktion
+\end{itemize}
+
+Sollten Sie die Modellierung eines Klassifizierungs- oder Regressionsproblems wählen, muss die Studienarbeit mindestens folgende Bestandteile enthalten (nicht relevant für Deep Dive Themen):
+\begin{itemize}
+	\item Genaue Formulierung der untersuchten Fragestellung inkl. Ziel der Analyse und verwendete Datenquellen
+	\item Analyse der Daten inkl. Bewertung der vorliegenden Datenqualität
+	\item Erstellung eines Modells zur Bearbeitung der Fragestellung inkl. Begründung der Modellwahl und Beschreibung möglicher Defizite/Verbesserungspotentiale
+	\item Diskussion der Resultate in Worten, Zahlen und Grafiken
+\end{itemize}
+
+\subsection*{Quellen}
+Wie über das gesamte Semester möchte ich Sie auch hier explizit ermuntern, Quellen zu verwenden. Sie brauchen das Rad nicht neu zu erfinden, sondern sollen vielmehr sinnvolle Fragen stellen und diese dann (ggf. unter Zuhilfenahme von Quellen) beantworten. Ergiebige Quellen in diesem Umfeld sind z.B.:
+\begin{itemize}
+	\item Im Kurs genannte Literatur
+	\item Dokumentation von Bibliotheken wie ScikitLearn
+	\item Data Science Plattformen wie z.B. \href{https://www.kaggle.com/}{kaggle.com}
+	\item Blogs wie z.B. \href{https://towardsdatascience.com/}{Towards Data Science}
+\end{itemize}
+Sollten einzelne (Teile von) Analysen aus externen Quellen verwendet werden, so sind diese Quellen zwingend korrekt zu zitieren.
+
+Bei konkreten Fragen, wie man etwas programmiertechnisch umsetzt (z.B. "`Wie füge ich einem DataFrame weitere Zeilen hinzu?"') können Suchmaschinen oder einschlägige Foren wie z.B. \href{https://stackoverflow.com/}{Stack\-overflow} nützlich sein. Diese brauchen Sie natürlich nicht zu zitieren.
+
+
+\subsection*{Abgabe}
+Das Abgabeformat ist ein Jupyter-Notebook, welches in einer Python 3 Umgebung unverändert fehlerfrei laufen muss. D.h. insbesondere das Einlesen der verwendeten Daten muss funktionieren. Dies kann z.B. dadurch sichergestellt werden, dass die Daten durch das Jupyter-Notebook aus einer Online-Quelle geladen werden. Alternativ können die Daten auch aus einem lokalen Verzeichnis eingelesen werden. In diesem Fall ist die exakte Angabe, wo sich welche Quelldatei zu befinden hat  am Anfang des Jupyter-Notebook erforderlich.
+
+Sollten Sie die Aufgabe im Team bearbeitet haben, so ist nur eine Abgabe unter Nennung aller Teammitglieder notwendig.
+
+Die Abgabe des Jupyter-Notebooks und im Falle eines selbst gewählten Themas der Quelldaten (falls nicht per automatischem Download eingebunden) erfolgt per Upload im Moodle-Kurs.
+
+Offizieller Abgabetermin ist der letzte Vorlesungstag des Semesters, also der 21. Januar 2022. Nachträgliche Abgaben bis 28. Februar 2022 werden akzeptiert.
+
+\section*{Bewertung}
+Die Bewertung erfolgt anhand der in den folgenden Kategorien erzielten Punkte:
+\begin{itemize}
+	\item Schwierigkeit der bearbeiteten Fragestellung ("`Überhang"')
+	\item Klarheit der Darstellung
+	\item Logischer Aufbau
+	\item Einsatz von Methoden
+	\item Interpretation
+\end{itemize}
+Dabei wird jede der genannten Kategorien mit 0-5 Punkten bewertet. Die Kategorie "`Einsatz von Methoden"' wird doppelt gewichtet, alle anderen einfach. Insgesamt sind somit maximal 30 Punkte erreichbar, wobei 25 Punkte als 100\% angesehen werden (die Kategorie "`Schwierigkeit der bearbeiteten Fragestellung"' stellt einen Überhang dar).
+\vspace{3cm}
+\begin{center}
+	Viel Freude und Erfolg bei der Erstellung der Studienarbeit!
+\end{center}
+
+
+\end{document}
