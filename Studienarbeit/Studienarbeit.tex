@@ -7,7 +7,7 @@
 
 
 % ************** Parameter aktuelles Blatt *********
-\newcommand{\veranstaltung}{Einführung in künstliche Intelligenz und Machine Learning}
+\newcommand{\veranstaltung}{Einführung in künstliche Intelligenz\\ und Machine Learning}
 \newcommand{\preaufgabe}{A}
 \setcounter{aufgabe}{0}
 \newcommand{\blatt}{}
@@ -20,93 +20,114 @@
 \header[Studienarbeit]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section*{Aufgabenstellung}
-Im Rahmen dieser Studienarbeit können Sie sich entweder 
-\begin{itemize}
-	\item selbstständig ein Thema wählen \emph{oder}
-	\item \emph{eines} der folgenden bearbeiten.
-\end{itemize}
-
-\subsection*{Klassifizierung}
-	\begin{enumerate}
-		\item Bearbeiten Sie die Kaggle Competition \href{https://www.kaggle.com/c/reducing-commercial-aviation-fatalities}{"`Reducing Commercial Aviation Fatalities"'}.
-		\item Verbessern Sie das in Praktikum 4 erstellte Modell zur Klassifizierung der Passagiere der Titanic in Überlebende und Opfer der Schiffskatastrophe. Mögliche Anregungen finden Sie z.B. in der zugehörigen \href{https://www.kaggle.com/c/titanic}{Kaggle Competition}.
-	\end{enumerate}
-\subsection*{Regression}
-	\begin{enumerate}
-		\setcounter{enumi}{2}
-		\item Bearbeiten Sie die Kaggle Competition \href{https://www.kaggle.com/c/bike-sharing-demand}{"`Bike Sharing Demand''}.
-		\item Erstellen Sie ein Modell zur Vorhersage von Gebrauchtwagenpreisen basierend auf dem Datensatz \href{https://syncandshare.lrz.de/dl/fiAzFNmK5f5d9ftPZHeaC2d/vehicles.csv.zip}{"`Used Cars Dataset"'}, dieser ist ebenfalls alternativ über \href{https://www.kaggle.com/austinreese/craigslist-carstrucks-data}{Kaggle} verfügbar.
-		\item Verbessern Sie das in Praktikum 5/6 erstellte Modell zur Vorhersage des Fahrradverkehrs über die Seattle Fremont Bridge. Mögliche Anregungen finden Sie z.B. in \href{https://jakevdp.github.io/PythonDataScienceHandbook/05.06-linear-regression.html}{J. VanderPlas, Python Data Science Handbook}.
-	\end{enumerate}
-\subsection*{Deep Dives}
-Gerne biete ich Ihnen auch an, ein Verfahren oder eine Verfahrensklasse näher zu beleuchten und im Stile  meiner "`Deep Dives"' (Kapitel 4 der Vorlesung) auszuarbeiten. Solche ein Deep Dive sollte die Funktionsweise des gewählten Verfahrens veranschaulichen (hier scheinen mir Grafiken besonders geeignet bzw. wichtig zu sein) und ein (kleineres) Anwendungsbeispiel enthalten. Mögliche Verfahren(sklassen) sind beispielsweise:
-\begin{enumerate}
-	\setcounter{enumi}{5}
-	\item Gaussian Mixture Models
-	\item Manifold Learning
-	\item Ensemble Methoden: Bagging, Boosting
-\end{enumerate}
-Im Rahmen eines solchen Deep Dive Themas ist es auch möglich, die Mathematik hinter einem Verfahren zu erläutern:
-\begin{itemize}
-	\item Welches Optimierungsproblem ist hier zu lösen?
-	\item Wie wird dieses Problem algorithmisch angegangen?
-	\item Welche Anforderungen an die Daten gibt es?
-\end{itemize}
-
 \section*{Allgemeine Anforderungen}
+Im Folgenden sind allgemeine Anforderungen an und Hinweise für die Studienarbeit zusammengefasst:
 \subsection*{Bestandteile}
-Sollten Sie ein eigenes Thema wählen, so muss dieses mindestens eines der folgenden Modelle beinhalten:
+Die Studienarbeit muss mindestens folgende Bestandteile enthalten:
 \begin{itemize}
-	\item Modell zur Regression
-	\item Modell zur Klassifizierung
-	\item Modell zur Bildung von Clustern oder zur Dimensionsreduktion
-\end{itemize}
-
-Sollten Sie die Modellierung eines Klassifizierungs- oder Regressionsproblems wählen, muss die Studienarbeit mindestens folgende Bestandteile enthalten (nicht relevant für Deep Dive Themen):
-\begin{itemize}
-	\item Genaue Formulierung der untersuchten Fragestellung inkl. Ziel der Analyse und verwendete Datenquellen
 	\item Analyse der Daten inkl. Bewertung der vorliegenden Datenqualität
-	\item Erstellung eines Modells zur Bearbeitung der Fragestellung inkl. Begründung der Modellwahl und Beschreibung möglicher Defizite/Verbesserungspotentiale
+	\item Erstellung und Evaluation eines Modells zur Bearbeitung der Fragestellung inkl. Begründung der Modellwahl und Beschreibung möglicher Defizite bzw. Verbesserungs\-potentiale
 	\item Diskussion der Resultate in Worten, Zahlen und Grafiken
 \end{itemize}
 
 \subsection*{Quellen}
-Wie über das gesamte Semester möchte ich Sie auch hier explizit ermuntern, Quellen zu verwenden. Sie brauchen das Rad nicht neu zu erfinden, sondern sollen vielmehr sinnvolle Fragen stellen und diese dann (ggf. unter Zuhilfenahme von Quellen) beantworten. Ergiebige Quellen in diesem Umfeld sind z.B.:
+Wie über das gesamte Semester möchte ich Sie auch hier explizit ermuntern, Quellen zu verwenden. Sie brauchen das Rad (oder die Versicherung) nicht neu zu erfinden, sondern sollen vielmehr sinnvolle Fragen stellen und diese dann (ggf. unter Zuhilfenahme von Quellen) beantworten. Ergiebige Quellen in diesem Umfeld sind z.B.:
 \begin{itemize}
 	\item Im Kurs genannte Literatur
 	\item Dokumentation von Bibliotheken wie ScikitLearn
 	\item Data Science Plattformen wie z.B. \href{https://www.kaggle.com/}{kaggle.com}
 	\item Blogs wie z.B. \href{https://towardsdatascience.com/}{Towards Data Science}
 \end{itemize}
-Sollten einzelne (Teile von) Analysen aus externen Quellen verwendet werden, so sind diese Quellen zwingend korrekt zu zitieren.
-
-Bei konkreten Fragen, wie man etwas programmiertechnisch umsetzt (z.B. "`Wie füge ich einem DataFrame weitere Zeilen hinzu?"') können Suchmaschinen oder einschlägige Foren wie z.B. \href{https://stackoverflow.com/}{Stack\-overflow} nützlich sein. Diese brauchen Sie natürlich nicht zu zitieren.
+Sollten einzelne (Teile von) Analysen aus externen Quellen verwendet werden, so sind diese Quellen zwingend zu zitieren.
+Bei konkreten Fragen, wie man etwas programmiertechnisch umsetzt (z.B. ``Wie füge ich einem DataFrame weitere Zeilen hinzu?'') können Suchmaschinen oder einschlägige Foren wie z.B. \href{https://stackoverflow.com/}{Stack\-overflow} nützlich sein. Diese brauchen Sie natürlich nicht zu zitieren.
 
 
 \subsection*{Abgabe}
-Das Abgabeformat ist ein Jupyter-Notebook, welches in einer Python 3 Umgebung unverändert fehlerfrei laufen muss. D.h. insbesondere das Einlesen der verwendeten Daten muss funktionieren. Dies kann z.B. dadurch sichergestellt werden, dass die Daten durch das Jupyter-Notebook aus einer Online-Quelle geladen werden. Alternativ können die Daten auch aus einem lokalen Verzeichnis eingelesen werden. In diesem Fall ist die exakte Angabe, wo sich welche Quelldatei zu befinden hat  am Anfang des Jupyter-Notebook erforderlich.
-
-Sollten Sie die Aufgabe im Team bearbeitet haben, so ist nur eine Abgabe unter Nennung aller Teammitglieder notwendig.
-
-Die Abgabe des Jupyter-Notebooks und im Falle eines selbst gewählten Themas der Quelldaten (falls nicht per automatischem Download eingebunden) erfolgt per Upload im Moodle-Kurs.
-
-Offizieller Abgabetermin ist der letzte Vorlesungstag des Semesters, also der 21. Januar 2022. Nachträgliche Abgaben bis 28. Februar 2022 werden akzeptiert.
+Das Abgabeformat ist ein Jupyter-Notebook, welches in einer Python 3 Umgebung unverändert fehlerfrei laufen muss. Sollten Sie die Aufgabe im Team bearbeitet haben, so ist nur eine Abgabe unter Nennung aller Teammitglieder notwendig.
+Die Abgabe des Jupyter-Notebooks erfolgt per Upload im Moodle-Kurs. Der Dateiname sollte \texttt{X\_nachname.ipynb} sein, wobei $X\in\lbrace A,B,C\rbrace$ die gewählte Aufgabe angibt und \texttt{nachname} Ihren Nachnamen (im Fall von Abgaben im Team entsprechend all Ihre Nachnamen).
+Offizieller Abgabetermin ist der letzte Vorlesungstag des Semesters, also der 24. Januar 2023. Nachträgliche Abgaben bis 28. Februar 2023 werden akzeptiert.
 
 \section*{Bewertung}
 Die Bewertung erfolgt anhand der in den folgenden Kategorien erzielten Punkte:
 \begin{itemize}
-	\item Schwierigkeit der bearbeiteten Fragestellung ("`Überhang"')
-	\item Klarheit der Darstellung
-	\item Logischer Aufbau
-	\item Einsatz von Methoden
-	\item Interpretation
+	\item Form der Arbeit -- berücksichtigt insbesondere Sprache, Lesbarkeit des Codes (Kommentierung), Qualität der Grafiken
+	\item Logischer Aufbau und Argumentation -- berücksichtigt insbesondere die Struktur der Arbeit (``roter Faden'') sowie die Motivation und Interpretation von Analysen
+	\item Einsatz von Methoden -- berücksichtigt methodische Aspekte insbesondere bei der Analyse und Aufbereitung der Daten und bei Auswahl und Training von Modellen
+	\item Ergebnisse des Modells -- berücksichtigt die Güte der vom Modell getroffenen Vorhersage.
 \end{itemize}
-Dabei wird jede der genannten Kategorien mit 0-5 Punkten bewertet. Die Kategorie "`Einsatz von Methoden"' wird doppelt gewichtet, alle anderen einfach. Insgesamt sind somit maximal 30 Punkte erreichbar, wobei 25 Punkte als 100\% angesehen werden (die Kategorie "`Schwierigkeit der bearbeiteten Fragestellung"' stellt einen Überhang dar).
+Dabei wird jede der genannten Kategorien mit 0-5 Punkten bewertet. 
+Zusätzlich gibt es einen Überhang: Jede der drei Aufgabenstellungen enthält \emph{[eine Zusatzfrage, die kursiv in eckigen Klammern]} gestellt ist. Die Bearbeitung dieser Frage ist optional und wird ggf. ebenfalls mit bis zu 5 Punkten bewertet.
+Die Kategorie ``Einsatz von Methoden''wird doppelt gewichtet, alle anderen einfach. Insgesamt sind somit maximal 30 Punkte erreichbar, wobei 25 Punkte als 100\% angesehen werden.
 \vspace{3cm}
 \begin{center}
 	Viel Freude und Erfolg bei der Erstellung der Studienarbeit!
 \end{center}
+
+\newpage
+
+
+\section*{Aufgabenstellung}
+Im Rahmen dieser Studienarbeit haben Sie die Auswahl zwischen einem Klassifikations- und zwei Regressionsproblemen. Sie bearbeiten \emph{eine} der drei folgenden Aufgaben.
+
+
+
+
+\subsection*{Aufgabe A -- Regression}
+\subsubsection*{Allgemeines Setting}
+Wir betrachten die Daten der Münchener \href{https://opendata.muenchen.de/pages/raddauerzaehlstellen}{Raddauerzählstellen}, die an sechs Standorten im Stadtgebiet installiert sind. Ein unter der Straßenoberfläche verlegter Sensor erfasst die Anzahl der Radlerinnen und Radler. Die Zählergebnisse werden in einer Auflösung von 15 Minuten gespeichert. Basierend auf den verfügbaren historischen Daten soll ein Modell entwickelt werden, dass die Hochrechnung von Kurzzeitzählungen (zwei mal vier Stunden) auf volle Tageswerte zuverlässig ermöglicht.
+
+\subsubsection*{Beschreibung der Daten}
+Die Daten der Raddauerzählstellen sind über \href{https://opendata.muenchen.de/dataset?tags=Raddauerz%C3%A4hlstellen}{opendata.muenchen.de} verfügbar. Um Ihnen die Arbeit zu erleichtern, erhalten Sie via GitLab sämtliche dort verfügbare Daten zusammengefasst in der Datei \href{https://gitlab.lrz.de/christian-moeller/machine-learning/-/raw/main/Studienarbeit/data/bike_15min.csv}{\texttt{bike\_15min.csv}}. 
+Diese Datei enthält neben Datum und Zeitraum der Zählung die Zählstelle sowie die gezählten Fahrräder pro Fahrtrichtung und die Summe beider Richtungen. Im Rahmen dieser Aufgabenstellung ist nur die Summe beider Richtungen relevant.
+
+\subsubsection*{Beschreibung der Aufgabe}
+Untersuchen Sie die vorliegenden Daten und gehen Sie dabei insbesondere auf fehlende Daten ein. Verdeutlichen Sie, dass die Baustelle an der Arnulfstraße seit Anfang 2021 die dortige Radzählung stark beeinflusst. Aus diesem Grund sollen die Daten der Messstelle Arnulfstraße nicht weiter berücksichtigt werden.
+Außerdem soll die zeitliche Auflösung der Daten auf Stundenintervalle (statt 15min) angepasst werden.
+
+Für eine Kurzzeitzählung wird der Radverkehr von 08:00 -- 12:00 Uhr sowie 14:00 -- 18:00 Uhr erfasst und aus diesen Daten eine Vorhersage für den gesamten Radverkehr am jeweiligen Tag bestimmt. Erstellen Sie ein lineares Modell das diese Vorhersage durchführt. Führen Sie dazu mindestens ein neues, in diesem Zusammenhang sinnvoll erscheinendes Feature ein. Teilen Sie die vorliegenden Daten sinnvoll in Trainings- und Testdaten auf und trainieren Sie neben dem linearen Modell noch ein weiteres frei zu wählendes Modell.
+
+Die Modelle sollten für jeden der fünf verbleibenden Standorte separat trainiert und bewertet werden. Verwenden Sie für die Bewertung die RMSE-Score. Interpretieren und beschreiben Sie insbesondere das lineare Modell \emph{[und vergleichen Sie die resultierende ``lineare Hochrechnungsmethode'' zwischen den Standorten. Ergeben sich ähnliche Hochrechnungsmethoden? Warum (nicht)?]}
+
+\newpage
+\subsection*{Aufgabe B -- Regression}
+\subsubsection*{Allgemeines Setting}
+Wir betrachten wie in Aufgabe A die Daten der Münchener \href{https://opendata.muenchen.de/pages/raddauerzaehlstellen}{Raddauerzählstellen}, die an sechs Standorten im Stadtgebiet installiert sind. Ein unter der Straßenoberfläche verlegter Sensor erfasst die Anzahl der Radlerinnen und Radler. Die Zählergebnisse werden auf Tageswerte aggregiert und zusammen mit Informationen über das lokale Wetter gespeichert. Basierend auf den verfügbaren historischen Daten soll ein Modell entwickelt werden, dass den Radverkehr für einen gegebenen Tag vorhersagt.
+
+\subsubsection*{Beschreibung der Daten}
+Die Daten der Raddauerzählstellen sind über \href{https://opendata.muenchen.de/dataset?tags=Raddauerz%C3%A4hlstellen}{opendata.muenchen.de} verfügbar. Um Ihnen die Arbeit zu erleichtern, erhalten Sie via GitLab sämtliche dort verfügbare Daten zusammengefasst in der Datei \href{https://gitlab.lrz.de/christian-moeller/machine-learning/-/raw/main/Studienarbeit/data/bike_daily.csv}{\texttt{bike\_daily.csv}}. 
+Diese Datei enthält neben Datum und Zeitraum der Zählung die Zählstelle sowie die gezählten Fahrräder pro Fahrtrichtung und die Summe beider Richtungen. Im Rahmen dieser Aufgabenstellung ist nur die Summe beider Richtungen relevant. Außerdem sind die Tagestiefst- und Tageshöchsttemperatur, die Niederschlagsmenge, die prozentuale Bewölkung sowie die Sonnenstunden verfügbar.
+
+\subsubsection*{Beschreibung der Aufgabe}
+Untersuchen Sie die vorliegenden Daten und gehen Sie dabei insbesondere auf fehlende Daten ein. Verdeutlichen Sie, dass die Baustelle an der Arnulfstraße seit Anfang 2021 die dortige Radzählung stark beeinflusst. Aus diesem Grund sollen die Daten der Messstelle Arnulfstraße nicht weiter berücksichtigt werden.
+Außerdem sind die verfügbaren Daten nicht vollständig. Bestimmen Sie die fehlenden Tage.
+
+Ziel dieser Aufgabe ist es, für einen gegebenen Tag die Anzahl der Fahrradfahrer an einer gegebenen Messstelle zu prognostizieren. Erstellen Sie ein lineares Modell das diese Vorhersage durchführt.
+Führen Sie dazu mindestens ein neues, in diesem Zusammenhang sinnvoll erscheinendes Feature ein. \emph{[Untersuchen Sie in diesem Zusammenhang, welchen Einfluss das Oktoberfest auf der Radverkehr hat.]} Teilen Sie die vorliegenden Daten sinnvoll in Trainings- und Testdaten auf und trainieren Sie neben dem linearen Modell noch ein weiteres frei zu wählendes Modell.
+
+Die Modelle sollten für jeden der fünf verbleibenden Standorte separat trainiert und bewertet werden. Verwenden Sie für die Bewertung die RMSE-Score. Interpretieren und beschreiben Sie insbesondere das lineare Modell. Nutzen Sie die beiden erstellten Modelle, um die fehlenden Daten zu füllen. Führen Sie außerdem eine Prognose für den Zeitraum 01.11.--31.12.2022 am Standort ``Olypmia'' durch und stellen Sie für diesen Standort das gesamte Jahr 2022 grafisch dar.
+
+
+
+\newpage
+\subsection*{Aufgabe C -- Klassifizierung}
+\subsubsection*{Allgemeines Setting}
+Wir betrachten die Daten von knapp 60.000 Kfz-Versicherungspolicen. Diese Daten beinhalten u.a. die Alter der jeweiligen Police, das Alter des Versicherungsnehmers, Daten zur Region, in der das Fahrzeug angemeldet ist, sowie Daten zum Fahrzeug selbst. Ziel ist es, ein Modell zu entwickeln, welches basierend auf diesen Daten vorhersagt, ob für eine Police innerhalb der nächsten sechs Monate ein Schaden gemeldet wird oder nicht.
+
+\subsubsection*{Beschreibung der Daten}
+Es werden Ihnen drei Dateien via GitLab zur Verfügung gestellt:
+\begin{itemize}
+	\item \href{https://gitlab.lrz.de/christian-moeller/machine-learning/-/raw/main/Studienarbeit/data/ins_train.csv}{\texttt{ins\_train.csv}} enthält sämtliche Informationen zu knapp 60.000 Policen sowie die Zielvariable \texttt{is\_claim}.
+	\item \href{https://gitlab.lrz.de/christian-moeller/machine-learning/-/raw/main/Studienarbeit/data/ins_live.csv}{\texttt{ins\_live.csv}} enthält die analogen Informationen zu weiteren knapp 40.000 Policen, allerdings ist hier die Zielvariable \texttt{is\_claim} nicht verfügbar. Diese soll im Rahmen der Aufgabe bestimmt werden.
+	\item \href{https://gitlab.lrz.de/christian-moeller/machine-learning/-/raw/main/Studienarbeit/data/ins_pred_sample}{\texttt{ins\_pred\_sample.csv}} ist ein Beispiel für die Ergebnisdatei, die von Ihnen abgegeben werden soll.
+\end{itemize}
+
+\subsubsection*{Beschreibung der Aufgabe}
+Untersuchen Sie die vorliegenden Daten und gehen Sie dabei insbesondere auf die Relevanz der vielen verfügbaren Features ein. Beachten Sie auch, dass die vorliegenden Daten stark unausgeglichen sind, da es wesentlich mehr Policen gibt, die keinen Schaden melden werden. Diskutieren Sie mögliche damit in Verbindung stehenden Probleme. \emph{[Wie könnte man mit dieser Problematik umgehen? Probieren Sie Ihre Idee aus.]}
+
+ Die Zielvariable \texttt{is\_claim} ist binär, der Wert 0 steht für ``keine Schadensmeldung'', der Wert 1 steht für ``Schadensmeldung''. Es sollen zwei Modelle zur Vorhersage von \texttt{is\_claim} entwickelt werden: ein (möglicherweise regularisiertes) lineares Modell sowie ein frei zu wählendes weiteres Modell. Interpretieren und beschreiben Sie insbesondere das trainierte lineare Modell und vergleichen Sie dessen Performance mit der des frei gewählten Modells. Als Metrik zur Bewertung soll das sog. $F_1$-Maß verwendet werden, welches definiert ist als harmonisches Mittel von Precision $P$ und Recall $R$:
+ $$F_1 = 2\frac{PR}{P+R}$$
+
+ Verwenden Sie das bessere der beiden entwickelten Modelle, um für die in \texttt{live.csv} gegebenen Daten die Vorhersage für \texttt{is\_claim} zu bestimmen. Das Ergebnis soll in die Datei \texttt{pred\_live.csv} ausgegeben werden, die wie die Beispieldatei \texttt{pred\_sample.csv} aufgebaut ist. Diese Datei ist neben dem Jupyter-Notebook, das die Studienarbeit enthält, abzugeben.
 
 
 \end{document}
