@@ -19,6 +19,16 @@ Im Rahmen dieser Veranstaltung empfehle ich insbesondere folgende Werke:
 - Shalev-Schwartz, Ben-David, Understanding Machine Learning, Cambridge University Press, 2014 — genaue Einführung in die Thematik inkl. Lerntheorie und genauen Hintergründen der Algorithmen, [im Volltext verfügbar](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning)
 ---
 
+## Woche 12
+Diese Woche betrachten wir nach PCA ein weiteres Verfahren der Klasse *unsupervised*. Konkret geht es darum, vorliegende Daten in Cluster aufzuteilen. Ein intuitiv sehr gut zugängliches Verfahren (wir hatten es zu Beginn des Semesters schon mal kurz angerissen) ist [k-Means](Vorlesung/04.06_k-Means_GMM.ipynb). Einen sehr guten Überblick über die prinzipiellen Probleme der Aufgabenstellen *Clustern* finden Sie in Kap. 22 von *Understanding Machine Learning*. Auch der Zusammenhang zu graphentheoretischen Problemen wird dort deutlich gemacht.
+Um gewisse Probleme von k-Means zu umgehen, betrachten wir außerdem noch sog. Gaussian Mixture Models (GMMs). 
+
+### Praktikum
+Diese Woche gibt es keine neue Praktikumsaufgabe. Stattdessen findet wie angekündigt die Präsentation einer Projektarbeit statt, bei der vier Studenten einen automatischen Logger entwickelt haben, der mit einer Kamera Messinstrumente abließt, diese durch ML-Methoden interpretiert und protokolliert.
+Auch auf mögliche Fragen zu den Themen der Studienarbeit werden wir eingehen.
+
+---
+
 ## Woche 11
 **WICHTIG:** Diese Woche findet **keine** Präsenzveranstaltung statt.
 
