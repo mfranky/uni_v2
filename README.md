@@ -19,6 +19,9 @@ Im Rahmen dieser Veranstaltung empfehle ich insbesondere folgende Werke:
 - Shalev-Schwartz, Ben-David, Understanding Machine Learning, Cambridge University Press, 2014 — genaue Einführung in die Thematik inkl. Lerntheorie und genauen Hintergründen der Algorithmen, [im Volltext verfügbar](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning)
 ---
 
+## Woche 13
+Aus mehrfachen Wunsch hin findet die letzte Veranstaltung des Semesters [online](https://hm-edu.zoom.us/j/66727078430?pwd=WjMzWC9ZWStuci9hdHJ0MXkyZGxtQT09) statt. Wir betrachten eine knappe Einführung in neuronale Netze. Außerdem können Fragen im Umfeld der Studienarbeiten besprochen werden.
+
 ## Woche 12
 Diese Woche betrachten wir nach PCA ein weiteres Verfahren der Klasse *unsupervised*. Konkret geht es darum, vorliegende Daten in Cluster aufzuteilen. Ein intuitiv sehr gut zugängliches Verfahren (wir hatten es zu Beginn des Semesters schon mal kurz angerissen) ist [k-Means](Vorlesung/04.06_k-Means_GMM.ipynb). Einen sehr guten Überblick über die prinzipiellen Probleme der Aufgabenstellen *Clustern* finden Sie in Kap. 22 von *Understanding Machine Learning*. Auch der Zusammenhang zu graphentheoretischen Problemen wird dort deutlich gemacht.
 Um gewisse Probleme von k-Means zu umgehen, betrachten wir außerdem noch sog. Gaussian Mixture Models (GMMs). 
