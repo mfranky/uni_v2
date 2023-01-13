@@ -20,8 +20,14 @@ Im Rahmen dieser Veranstaltung empfehle ich insbesondere folgende Werke:
 ---
 
 ## Woche 13
-Aus mehrfachen Wunsch hin findet die letzte Veranstaltung des Semesters [online](https://hm-edu.zoom.us/j/66727078430?pwd=WjMzWC9ZWStuci9hdHJ0MXkyZGxtQT09) statt. Wir betrachten eine knappe Einführung in neuronale Netze. Außerdem können Fragen im Umfeld der Studienarbeiten besprochen werden.
+Aus mehrfachen Wunsch hin findet die letzte Veranstaltung des Semesters [online](https://hm-edu.zoom.us/j/66727078430?pwd=WjMzWC9ZWStuci9hdHJ0MXkyZGxtQT09) statt. Wir betrachten eine knappe Einführung in neuronale Netze. Die Notizen dazu finden Sie im [OneNote-Dokument][onenote]. 
 
+Außerdem können Fragen im Umfeld der Studienarbeiten besprochen werden.
+
+### Praktikum
+[TensorFlow Playground](https://playground.tensorflow.org/) stellt eine direkt zugängliche, einfache und intuitive Umgebung bereit, um mit neuronalen Netzen sehr einfach zu experimentieren. Eine Anleitung, wie Sie damit die Funktionsweise neuronaler Netze strukturiert erkunden können, finden Sie [hier](Praktikum/Pr9_TF_Playground.html).
+
+---
 ## Woche 12
 Diese Woche betrachten wir nach PCA ein weiteres Verfahren der Klasse *unsupervised*. Konkret geht es darum, vorliegende Daten in Cluster aufzuteilen. Ein intuitiv sehr gut zugängliches Verfahren (wir hatten es zu Beginn des Semesters schon mal kurz angerissen) ist [k-Means](Vorlesung/04.06_k-Means_GMM.ipynb). Einen sehr guten Überblick über die prinzipiellen Probleme der Aufgabenstellen *Clustern* finden Sie in Kap. 22 von *Understanding Machine Learning*. Auch der Zusammenhang zu graphentheoretischen Problemen wird dort deutlich gemacht.
 Um gewisse Probleme von k-Means zu umgehen, betrachten wir außerdem noch sog. Gaussian Mixture Models (GMMs). 
