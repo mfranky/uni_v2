@@ -19,7 +19,7 @@ Im Rahmen dieser Veranstaltung empfehle ich insbesondere folgende Werke:
 - Shalev-Schwartz, Ben-David, Understanding Machine Learning, Cambridge University Press, 2014 — genaue Einführung in die Thematik inkl. Lerntheorie und genauen Hintergründen der Algorithmen, [im Volltext verfügbar](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning)
 ---
 
-## Woche 13
+<!-- ## Woche 13
 Aus mehrfachen Wunsch hin findet die letzte Veranstaltung des Semesters [online](https://hm-edu.zoom.us/j/66727078430?pwd=WjMzWC9ZWStuci9hdHJ0MXkyZGxtQT09) statt. Wir betrachten eine knappe Einführung in neuronale Netze. Die Notizen dazu finden Sie im [OneNote-Dokument][onenote]. 
 
 Außerdem können Fragen im Umfeld der Studienarbeiten besprochen werden.
@@ -159,7 +159,7 @@ Um für dieses umfangreiche Programm ausreichend Zeit zu haben, werden wir auch 
 
 Wie erwähnt findet heute um 15 Uhr ein möglicherweise für Sie interessantes Kolloquium unseres Masterstudiengangs Computationa Engineering statt, gerne können Sie [hier](https://hm-edu.zoom.us/j/65474372368?pwd=WjhicDdqalRaQW5OTnltR0E1eWx6dz09) beitreten.
 
----
+--- -->
 
 ## Woche 1
 In der Einführung besprechen wir:
@@ -180,5 +180,5 @@ Im Praktikum gebe ich außerdem einen Crash-Kurs in Python. Im Rahmen dessen wer
 
 
 
-[onenote]: https://1drv.ms/u/s!AhdJTnngugIpjTsnJWCmXJsxpBf3?e=6de34K
+[onenote]: https://1drv.ms/o/s!AhdJTnngugIpjTspCZMn58QtIXnt?e=TKQbVN
 [sklearn_user_guide]: https://scikit-learn.org/stable/user_guide.html

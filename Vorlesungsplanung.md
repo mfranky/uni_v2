@@ -1,5 +1,5 @@
 # Planung Machine Learning
-im WiSe 2022/23 Woche
+im WiSe 2023/24
 
 | Woche  	| Inhalt  	| Praktikum      |
 |---	|---	| ---          |
