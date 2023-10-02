@@ -1,6 +1,8 @@
 # Einführung in künstliche Intelligenz und Machine Learning
 
-Das Hauptziel dieser Veranstaltung ist **💪ENABLING💪**. D.h. Sie sollen am Ende des Semesters etwas möglicherweise/hoffentlich nützliches können. Um dieses Ziel in der knappen zur Verfügung stehenden Zeit zu erreichen, werden Sie an der ein oder anderen Stelle ins kalte Wasser geworfen — schwimmen 🏊‍♀️ Sie los!
+Bitte nutzen Sie den [Branch des aktuellen Semesters](https://gitlab.lrz.de/christian-moeller/machine-learning/-/tree/WiSe23-24).
+
+<!-- Das Hauptziel dieser Veranstaltung ist **💪ENABLING💪**. D.h. Sie sollen am Ende des Semesters etwas möglicherweise/hoffentlich nützliches können. Um dieses Ziel in der knappen zur Verfügung stehenden Zeit zu erreichen, werden Sie an der ein oder anderen Stelle ins kalte Wasser geworfen — schwimmen 🏊‍♀️ Sie los!
 
 In Bezug auf maschinelles Lernen brauchen wir, um etwas nützliches bewerkstelligen zu können insbesondere
 - ein paar grundlegende Überlegungen zum "Lernen" an sich;
@@ -181,4 +183,4 @@ Im Praktikum gebe ich außerdem einen Crash-Kurs in Python. Im Rahmen dessen wer
 
 
 [onenote]: https://1drv.ms/u/s!AhdJTnngugIpjTsnJWCmXJsxpBf3?e=6de34K
-[sklearn_user_guide]: https://scikit-learn.org/stable/user_guide.html
+[sklearn_user_guide]: https://scikit-learn.org/stable/user_guide.html -->
