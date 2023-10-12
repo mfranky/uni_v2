@@ -142,24 +142,22 @@ Im Praktikum werden diese Inhalte anhand verschiedener Clustering-Algorithmen u.
 Ich rate Ihnen, wirklich zu versuchen, die Aufgaben zu lösen OHNE in den Lösungsvorschlag zu schauen. Nutzen Sie gerne alle anderen verfügbaren Quellen, insbesondere auch die Suchmaschine Ihrer Wahl und die [Scikit-Learn Dokumentation][sklearn_user_guide]. So lernen Sie, mit immer verfügbaren Quellen Aufgaben zu lösen - das ist aus meiner Sicht ein wesentliches Ziel der Veranstaltung!
 
 ---
+--- -->
 ## Woche 2
 Diese Woche betrachten wir 
 - ein erstes Beispiel, welches gem. der Definition von Mitchell (vgl. erste Vorlesung) als "maschinelles Lernen" bezeichnet werden kann: die **lineare Regression**. Wir begründen, warum lineare Regression eine (einfache) Methode des maschinellen Lernens ist und betrachten ein ganz [konkretes Beispiel](Vorlesung/01_lin_reg.ipynb).
 - die strukturierte [Darstellung von Daten](Vorlesung/02.01_Ausgangspunkt_Daten.ipynb). Wir stellen insbesondere Überlegungen an zur grafischen Darstellung von Daten und warum das so wichtig ist.
-- das Software-Tool, welches wir für die Veranstaltung nutzen werden: [Scikit-Learn](https://scikit-learn.org/)
-Wir betrachten, wie Daten typischerweise dargestellt werden und sprechen die wesentlichen Elemente der Estimator API durch. Das Prinzip ist knapp im [OneNote Notebook][onenote] dargestellt, als erstes Beispiel für die systematische Anwendung der API im Rahmen einer *supervised learning* Aufgabe betrachten wir eine [einfache lineare Regression](Vorlesung/02.02_API_supervised.ipynb).
+- das Software-Tool, welches wir für die Veranstaltung nutzen werden: [Scikit-Learn](https://scikit-learn.org/)  
+  Wir betrachten, wie Daten typischerweise dargestellt werden und sprechen die wesentlichen Elemente der Estimator API durch. Das Prinzip ist knapp im [OneNote Notebook][onenote] dargestellt, als erstes Beispiel für die systematische Anwendung der API im Rahmen einer *supervised learning* Aufgabe betrachten wir eine [einfache lineare Regression](Vorlesung/02.02_API_supervised.ipynb).
 
 Um Scikit-Learn nutzen zu können, können Sie (u.a.)
 - die kostenfreie Cloudplattform [Google Colab](https://colab.research.google.com/) verwenden;
 - Python und Scikit-Learn lokal auf Ihrem Rechner installieren. Eine einfache Möglichkeit ist die Installation von [Anaconda](https://www.anaconda.com/), als Editor bzw. IDE empfehle ich [VSCode](https://code.visualstudio.com/).
+
 Für den leichten und problemfreien Einstieg rate ich zur ersten Option.
 
 
-Um für dieses umfangreiche Programm ausreichend Zeit zu haben, werden wir auch einen Teil der Praktikumsstunde ab 11:45 Uhr nutzen. Ein Praktikum im eigentlichen Sinne findet aber diese Woche noch nicht statt. Alle Inhalte finden Sie auch online, die Videos sind im OneNote verlinkt.
-
-Wie erwähnt findet heute um 15 Uhr ein möglicherweise für Sie interessantes Kolloquium unseres Masterstudiengangs Computationa Engineering statt, gerne können Sie [hier](https://hm-edu.zoom.us/j/65474372368?pwd=WjhicDdqalRaQW5OTnltR0E1eWx6dz09) beitreten.
-
---- -->
+Im Praktikum gebe ich außerdem einen Crash-Kurs in Python. Im Rahmen dessen werde ich auch Googles Cloud-Computing Umgebung [Colab](https://colab.research.google.com/) kurz präsentieren. Das entsprechende [Jupyter Notebook](Tutorials/python_tutorial.ipynb) stammt aus dem Kurs [CS231n](http://cs231n.stanford.edu/).
 
 ## Woche 1
 In der Einführung besprechen wir:
@@ -175,7 +173,6 @@ Die entsprechenden Notizen finden Sie im [OneNote Notebook][onenote].
 
 ❗ Um insbesondere die Themen ERM und Overfitting zu vertiefen und ein Gefühl dafür zu vermitteln, dass all diese Themen auf einem soliden mathematischen Fundament stehen, arbeiten Sie bitte Kapitel 2 "A gentle start" von [Understanding Machine Learning](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf) durch. Wir werden dies nächste Woche besprechen.   
 
-Im Praktikum gebe ich außerdem einen Crash-Kurs in Python. Im Rahmen dessen werde ich auch Googles Cloud-Computing Umgebung [Colab](https://colab.research.google.com/) kurz präsentieren. Das entsprechende [Jupyter Notebook](Tutorials/python_tutorial.ipynb) stammt aus dem Kurs [CS231n](http://cs231n.stanford.edu/).
 
 
 
