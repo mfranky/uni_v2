@@ -124,13 +124,22 @@ Im Praktikum geht es um die Erkennung handschriftlicher Ziffern. Die Daten solle
 - [Aufgabenstellung](Praktikum/Pr2_handwritten_digits_blank.ipynb)
 - [Lösungsvorschlag](Praktikum/Pr2_handwritten_digits_sol.ipynb) 
 ---
-## Woche 3
-Diese Woche arbeiten wir weiter mit der Estimator API von Scikit-Learn, konkret betrachten wir ein noch ausstehendes Beispiel zu *unsupervised learning*:
+--- -->
 
+## Woche 3
+**Diese Woche nutzen wir für die Präsenzveranstaltungen den zweiten und dritten Slot.**
+
+Konkret:
+- Vorlesung 11:45 - 13:15 Uhr
+- Praktikum 13:30 - 15:00 Uhr
+
+Diese Woche beginne wir die Arbeit mit der Estimator API von Scikit-Learn:
+- Das Prinzip ist knapp im [OneNote Notebook][onenote] dargestellt, als erstes Beispiel für die systematische Anwendung der API im Rahmen einer *supervised learning* Aufgabe betrachten wir eine [einfache lineare Regression](Vorlesung/02.02_API_supervised.ipynb).
+- Außerdem betrachten wir ein Beispiel zu *unsupervised learning*:
 Wir wollen die Iris-Daten clustern, sprich die vorhandenen Daten in drei Gruppen aufteilen, ohne dass wir spezifizieren, wie diese Gruppen ("Cluster") aussehen. Bevor wir das machen, wollen wir erst einmal einen Eindruck bekommen, ob ein solches Clustering überhaupt vielversprechend ist, d.h. ob wir erwarten dürfen, dass die erzeugten Cluster mit den real vorliegenden unterschiedlichen Spezies übereinstimmen. Dazu führen wir eine Dimensionsreduktion mittels PCA ("Principal Component Analysis", Details in einer späteren Vorlesung) durch, die ursprünglich vierdimensionalen Iris-Daten sollen auf die wesentlichen zwei Dimensionen reduziert werden. Die so aufbereiteten Daten können wir dann visuell untersuchen. Dieses Beispiel finden Sie in [diesem Notebook](Vorlesung/02.03_API_unsupervised.ipynb). 
  
 
-Wir untersuchen auch die Frage, welche Fehler bei einem ML Model relevant sind und wie Modelle bewertet werden können, siehe [OneNote][onenote] Kapitel 3 und 3.1. Diese Überlegungen setzen vertiefen wir nächste Woche in einem Beispiel mit den Iris-Daten. 
+Wir untersuchen auch die Frage, welche Fehler bei einem ML Model relevant sind und wie Modelle bewertet werden können, siehe [OneNote][onenote] Kapitel 3 und 3.1. Diese Überlegungen vertiefen wir nächste Woche in einem Beispiel mit den Iris-Daten. 
  
 ### Praktikum
 Im Praktikum werden diese Inhalte anhand verschiedener Clustering-Algorithmen u.a. am Beispiel der Iris-Daten vertieft. Die Aufgabenstellung des Praktikums finden Sie (inkl. Erläuterung per Video) in unten stehendem Notebook. Auch einen Lösungsvorschlag (inkl. Erläuterung per Video) finden Sie unten.
@@ -142,13 +151,11 @@ Im Praktikum werden diese Inhalte anhand verschiedener Clustering-Algorithmen u.
 Ich rate Ihnen, wirklich zu versuchen, die Aufgaben zu lösen OHNE in den Lösungsvorschlag zu schauen. Nutzen Sie gerne alle anderen verfügbaren Quellen, insbesondere auch die Suchmaschine Ihrer Wahl und die [Scikit-Learn Dokumentation][sklearn_user_guide]. So lernen Sie, mit immer verfügbaren Quellen Aufgaben zu lösen - das ist aus meiner Sicht ein wesentliches Ziel der Veranstaltung!
 
 ---
---- -->
 ## Woche 2
 Diese Woche betrachten wir 
 - ein erstes Beispiel, welches gem. der Definition von Mitchell (vgl. erste Vorlesung) als "maschinelles Lernen" bezeichnet werden kann: die **lineare Regression**. Wir begründen, warum lineare Regression eine (einfache) Methode des maschinellen Lernens ist und betrachten ein ganz [konkretes Beispiel](Vorlesung/01_lin_reg.ipynb).
 - die strukturierte [Darstellung von Daten](Vorlesung/02.01_Ausgangspunkt_Daten.ipynb). Wir stellen insbesondere Überlegungen an zur grafischen Darstellung von Daten und warum das so wichtig ist.
 - das Software-Tool, welches wir für die Veranstaltung nutzen werden: [Scikit-Learn](https://scikit-learn.org/)  
-  Wir betrachten, wie Daten typischerweise dargestellt werden und sprechen die wesentlichen Elemente der Estimator API durch. Das Prinzip ist knapp im [OneNote Notebook][onenote] dargestellt, als erstes Beispiel für die systematische Anwendung der API im Rahmen einer *supervised learning* Aufgabe betrachten wir eine [einfache lineare Regression](Vorlesung/02.02_API_supervised.ipynb).
 
 Um Scikit-Learn nutzen zu können, können Sie (u.a.)
 - die kostenfreie Cloudplattform [Google Colab](https://colab.research.google.com/) verwenden;
