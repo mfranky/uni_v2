@@ -111,20 +111,22 @@ Im Praktikum behandeln wir Cross Validation, um für unterschiedliche Modell die
 - [Lösungsvorschlag](Praktikum/Pr3_CrossVal_GridSearch_sol.ipynb)
 
 ---
+--- -->
 
 ## Woche 4
-Wir vertiefen die Überlungen zur Modellbewertung der letzten Woche durch eine konkrete Anwendung auf das Iris-Beispiel um, siehe [Notebook](Vorlesung/03.01_Accuracy.ipynb). Eine mit der Modellbewertung eng verwandte Fragestellung ist die der Modellwahl: *Wenn die Performance des Modells nicht befriedigend ist, was kann unternommen werden?*
+Wir untersuchen die Frage, welche Fehler bei einem ML Model relevant sind und wie Modelle bewertet werden können, siehe [OneNote][onenote] Kapitel 3 und 3.1. Diese Überlungen zur Modellbewertung vertiefen wir durch eine konkrete Anwendung auf das Iris-Beispiel, siehe [Notebook](Vorlesung/03.01_Accuracy.ipynb).
+
+Eine mit der Modellbewertung eng verwandte Fragestellung ist die der Modellwahl: *Wenn die Performance des Modells nicht befriedigend ist, was kann unternommen werden?*
 Prinzipiell kann ein komplexeres (oder ein weniger komplexes) Modell verwendet werden und es können mehr (oder weniger) Daten eingesetzt werden. Die weitere (und sehr wichtige) Möglichkeit, andere Features zu verwenden, klammern wir für die Betrachtung diese Woche noch aus.
 
-Detailliert untersuchen wir mit Hilfe von Validierungskurven die Abhängigkeit der Modellperformance von der gegebenen Kapazität des Modells, siehe [Notebook](Vorlesung/03.02_Modellwahl.ipynb).
+Detailliert untersuchen wir mithilfe von Validierungskurven die Abhängigkeit der Modellperformance von der gegebenen Kapazität des Modells, siehe [Notebook](Vorlesung/03.02_Modellwahl.ipynb).
 
 ### Praktikum
-Im Praktikum geht es um die Erkennung handschriftlicher Ziffern. Die Daten sollen mit Hilfe von Dimensionsreduktion zuerst untersucht werden, um ein Gefühl dafür zu bekommen, wie kompliziert eine derartige Klassifizierungsaufgabe wohl ist. Zur Modellvalidierung soll Cross Validation verwendet werden. Als Zusatz wird der Aspekt der "Stratification", also der "statistischen Ausbalancierung" angesprochen.
+Im Praktikum geht es um die Erkennung handschriftlicher Ziffern. Die Daten sollen mithilfe von Dimensionsreduktion zuerst untersucht werden, um ein Gefühl dafür zu bekommen, wie kompliziert eine derartige Klassifizierungsaufgabe wohl ist. Zur Modellvalidierung soll Cross Validation verwendet werden. Als Zusatz wird der Aspekt der "Stratification", also der "statistischen Ausbalancierung" angesprochen.
 
 - [Aufgabenstellung](Praktikum/Pr2_handwritten_digits_blank.ipynb)
 - [Lösungsvorschlag](Praktikum/Pr2_handwritten_digits_sol.ipynb) 
 ---
---- -->
 
 ## Woche 3
 **Diese Woche nutzen wir für die Präsenzveranstaltungen den zweiten und dritten Slot.**
@@ -139,7 +141,6 @@ Diese Woche beginne wir die Arbeit mit der Estimator API von Scikit-Learn:
 Wir wollen die Iris-Daten clustern, sprich die vorhandenen Daten in drei Gruppen aufteilen, ohne dass wir spezifizieren, wie diese Gruppen ("Cluster") aussehen. Bevor wir das machen, wollen wir erst einmal einen Eindruck bekommen, ob ein solches Clustering überhaupt vielversprechend ist, d.h. ob wir erwarten dürfen, dass die erzeugten Cluster mit den real vorliegenden unterschiedlichen Spezies übereinstimmen. Dazu führen wir eine Dimensionsreduktion mittels PCA ("Principal Component Analysis", Details in einer späteren Vorlesung) durch, die ursprünglich vierdimensionalen Iris-Daten sollen auf die wesentlichen zwei Dimensionen reduziert werden. Die so aufbereiteten Daten können wir dann visuell untersuchen. Dieses Beispiel finden Sie in [diesem Notebook](Vorlesung/02.03_API_unsupervised.ipynb). 
  
 
-Wir untersuchen auch die Frage, welche Fehler bei einem ML Model relevant sind und wie Modelle bewertet werden können, siehe [OneNote][onenote] Kapitel 3 und 3.1. Diese Überlegungen vertiefen wir nächste Woche in einem Beispiel mit den Iris-Daten. 
  
 ### Praktikum
 Im Praktikum werden diese Inhalte anhand verschiedener Clustering-Algorithmen u.a. am Beispiel der Iris-Daten vertieft. Die Aufgabenstellung des Praktikums finden Sie (inkl. Erläuterung per Video) in unten stehendem Notebook. Auch einen Lösungsvorschlag (inkl. Erläuterung per Video) finden Sie unten.
