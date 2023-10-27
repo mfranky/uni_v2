@@ -101,7 +101,10 @@ Im Praktikum behandeln wir die in der Machine Learning Welt sehr populäre "Tita
 - [Lösungsvorschlag](Praktikum/Pr4_Titanic_sol.ipynb)
 ---
 ## Woche 5
-Wir führen die Überlegungen zur Modellwahl von letzter Woche fort. Insbesondere betrachten wir die Abhängigkeit der Modellperformance von der  Kapazität des Modells durch sog. Validierungskurven. Anschließend untersuchen wir die Auswirkung der Menge der Trainingsdaten mit Hilfe von Trainingskurven, siehe [Notebook](Vorlesung/03.02_Modellwahl.ipynb).
+Wir führen die Überlegungen zur Modellwahl von letzter Woche fort. 
+Eine mit der Modellbewertung eng verwandte Fragestellung ist die der Modellwahl: *Wenn die Performance des Modells nicht befriedigend ist, was kann unternommen werden?*
+Prinzipiell kann ein komplexeres (oder ein weniger komplexes) Modell verwendet werden und es können mehr (oder weniger) Daten eingesetzt werden. Die weitere (und sehr wichtige) Möglichkeit, andere Features zu verwenden, klammern wir für die Betrachtung diese Woche noch aus.
+Insbesondere betrachten wir die Abhängigkeit der Modellperformance von der  Kapazität des Modells durch sog. Validierungskurven. Anschließend untersuchen wir die Auswirkung der Menge der Trainingsdaten mit Hilfe von Trainingskurven, siehe [Notebook](Vorlesung/03.02_Modellwahl.ipynb).
 
 Außerdem beginnen wir mit dem wichtigen Thema *Feature Engineering*. Damit ist gemeint, dass aus vorliegenden Daten erst einmal Features abgeleitet werden, bevor diese dann als Input für ML-Modelle verwendet werden können. Dies ist offensichtlich nötig, wenn der Input z.B. aus kategorischen Daten oder aus Text besteht, siehe [Notebook](Vorlesung/03.03_Feature_Eng.ipynb). Das Kapitel "Abgeleitete Features" besprechen wir nächste Woche.
 
@@ -116,10 +119,6 @@ Im Praktikum behandeln wir Cross Validation, um für unterschiedliche Modell die
 ## Woche 4
 Wir untersuchen die Frage, welche Fehler bei einem ML Model relevant sind und wie Modelle bewertet werden können, siehe [OneNote][onenote] Kapitel 3 und 3.1. Diese Überlungen zur Modellbewertung vertiefen wir durch eine konkrete Anwendung auf das Iris-Beispiel, siehe [Notebook](Vorlesung/03.01_Accuracy.ipynb).
 
-Eine mit der Modellbewertung eng verwandte Fragestellung ist die der Modellwahl: *Wenn die Performance des Modells nicht befriedigend ist, was kann unternommen werden?*
-Prinzipiell kann ein komplexeres (oder ein weniger komplexes) Modell verwendet werden und es können mehr (oder weniger) Daten eingesetzt werden. Die weitere (und sehr wichtige) Möglichkeit, andere Features zu verwenden, klammern wir für die Betrachtung diese Woche noch aus.
-
-Detailliert untersuchen wir mithilfe von Validierungskurven die Abhängigkeit der Modellperformance von der gegebenen Kapazität des Modells, siehe [Notebook](Vorlesung/03.02_Modellwahl.ipynb).
 
 ### Praktikum
 Im Praktikum geht es um die Erkennung handschriftlicher Ziffern. Die Daten sollen mithilfe von Dimensionsreduktion zuerst untersucht werden, um ein Gefühl dafür zu bekommen, wie kompliziert eine derartige Klassifizierungsaufgabe wohl ist. Zur Modellvalidierung soll Cross Validation verwendet werden. Als Zusatz wird der Aspekt der "Stratification", also der "statistischen Ausbalancierung" angesprochen.
