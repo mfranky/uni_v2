@@ -88,20 +88,18 @@ Wir bauen ein (lineares) Modell, dass den Fahrradverkehr über die [Fremont Brid
 - [Aufgabenstellung](Praktikum/Pr5_Lineare_Modelle_blank.ipynb)
 - [Lösungsvorschlag](Praktikum/Pr5_Lineare_Modelle_sol.ipynb)
 ---
+--- -->
 
 ## Woche 6
-Außerdem beginnen wir mit dem wichtigen Thema *Feature Engineering*. Damit ist gemeint, dass aus vorliegenden Daten erst einmal Features abgeleitet werden, bevor diese dann als Input für ML-Modelle verwendet werden können. Dies ist offensichtlich nötig, wenn der Input z.B. aus kategorischen Daten oder aus Text besteht, siehe [Notebook](Vorlesung/03.03_Feature_Eng.ipynb). Das Kapitel "Abgeleitete Features" besprechen wir nächste Woche.
-Wir besprechen den wichtigen Aspekt, aus vorliegenden Daten neue Features zu generieren, siehe Abschnitt "Abgeleitete Features" im [Notebook](Vorlesung/03.03_Feature_Eng.ipynb).
+Wir besprechen das wichtige Thema *Feature Engineering*. Damit ist gemeint, dass aus vorliegenden Daten erst einmal Features abgeleitet werden, bevor diese dann als Input für ML-Modelle verwendet werden können. Dies ist offensichtlich nötig, wenn der Input z.B. aus kategorischen Daten oder aus Text besteht, siehe [Notebook](Vorlesung/03.03_Feature_Eng.ipynb). Allerdings ist es häufig auch sinnvoll, aus vorliegenden Daten neue Features zu generieren, siehe Abschnitt "Abgeleitete Features".
 
-Außerdem starten betrachten wir eine erste Modellklasse detaillierter: [Naive Bayes](Vorlesung/04.01_Naive_Bayes.ipynb)
-Hiervon haben wir das allgemeine Prinzip behandelt, das Kapitel "Gaussian Naive Bayes" starten wir nächste Woche.
+Außerdem betrachten wir eine erste Modellklasse detaillierter: [Naive Bayes](Vorlesung/04.01_Naive_Bayes.ipynb)
 
 ### Praktikum
 Im Praktikum behandeln wir die in der Machine Learning Welt sehr populäre "Titanic-Challenge". Aus den Personendaten der einzelnen Passagiere der Titanic soll vorhergesagt werden, wer die Schiffskatastrophe überlebt:
 - [Aufgabenstellung](Praktikum/Pr4_Titanic_blank.ipynb)
 - [Lösungsvorschlag](Praktikum/Pr4_Titanic_sol.ipynb)
 ---
---- -->
 ## Woche 5
 **Diese Woche keine Präsenzveranstaltung. Bitte erarbeiten Sie die Notebooks selbstständig bzw. anhand der darin verlinkten Videos.**
 
