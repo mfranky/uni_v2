@@ -77,23 +77,22 @@ Wir setzen das Praktikum der letzen Woche fort. Zuerst versuchen wir, die vorlei
 - [Aufgabenstellung](Praktikum/Pr6_Lineare_Modelle_blank.ipynb)
 - [Lösungsvorschlag](Praktikum/Pr5_6_Lineare_Modelle_sol.ipynb)
 ---
+--- -->
 
 ## Woche 7
-Diese Woche nehmen wir uns bewusst weniger vor um Zeit für ausführliche Diskussionen und das Praktikum zu haben. Wir besprechen detaillierter die Klasse der [Naive Bayes Modelle](Vorlesung/04.01_Naive_Bayes.ipynb).
+Wir besprechen detaillierter die Klasse der [Naive Bayes Modelle](Vorlesung/04.01_Naive_Bayes.ipynb).
 
-Die Naive Bayes Modelle haben wir komplett besprochen.
+Diese Woche kann aufgrund eines Berufungsverfahrens leider *kein* Praktikum mit Betreuung in Präsenz stattfinden. Bitte erarbeiten Sie die Aufgabe zu Linearen Modellen eigenständig. Wir werden nächste Woche darauf aufbauen.
+
 
 ### Praktikum
 Wir bauen ein (lineares) Modell, dass den Fahrradverkehr über die [Fremont Bridge in Seattle](https://en.wikipedia.org/wiki/Fremont_Bridge_(Seattle)) modelliert. Datenaufbereitung, Erzeugung von Features und Hinzufügen weiterer Daten stehen hier im Mittelpunkt.
 - [Aufgabenstellung](Praktikum/Pr5_Lineare_Modelle_blank.ipynb)
 - [Lösungsvorschlag](Praktikum/Pr5_Lineare_Modelle_sol.ipynb)
 ---
---- -->
 
 ## Woche 6
 Wir besprechen das wichtige Thema *Feature Engineering*. Damit ist gemeint, dass aus vorliegenden Daten erst einmal Features abgeleitet werden, bevor diese dann als Input für ML-Modelle verwendet werden können. Dies ist offensichtlich nötig, wenn der Input z.B. aus kategorischen Daten oder aus Text besteht, siehe [Notebook](Vorlesung/03.03_Feature_Eng.ipynb). Allerdings ist es häufig auch sinnvoll, aus vorliegenden Daten neue Features zu generieren, siehe Abschnitt "Abgeleitete Features".
-
-Außerdem betrachten wir eine erste Modellklasse detaillierter: [Naive Bayes](Vorlesung/04.01_Naive_Bayes.ipynb)
 
 ### Praktikum
 Im Praktikum behandeln wir die in der Machine Learning Welt sehr populäre "Titanic-Challenge". Aus den Personendaten der einzelnen Passagiere der Titanic soll vorhergesagt werden, wer die Schiffskatastrophe überlebt:
