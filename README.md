@@ -68,16 +68,16 @@ Ziel ist es, dass Sie dieses Projekt durcharbeiten/nachvollziehen um sich spezie
 - [Beschreibung: Chapter 2 – End-to-end Machine Learning project](Praktikum/Geron%20-%20Hands-on-ML%20chap_2.pdf)
 - [Zugehöriges Jupyter Notebook](Praktikum/Pr7_End_to_end_ML_project.ipynb)
 ---
+--- -->
 
 ## Woche 8
 Wir besprechen [lineare Modelle](Vorlesung/04.02_Lineare_Modelle.ipynb) allgemein und erläutern daran verschiedene Möglichkeiten zur Regularisierung. Konkret betrachten wir *Ridge* und *Lasso*, d.h. die $`L_2`$ und $`L_1`$ Regularisierung. Außerdem betrachten wir, wie Multi-Class Klassifizierung funktioniert.
 
 ### Praktikum
-Wir setzen das Praktikum der letzen Woche fort. Zuerst versuchen wir, die vorleigenden Daten besser zu treffen. Im zweiten Teil erstellen wir ein Vorhersagemodell, welches basierend auf historischen Daten den Fahrradverkehr auf der Fremont Bridge vorhersagen kann.
+Wir setzen das Praktikum der letzen Woche fort. Zuerst versuchen wir, die vorliegenden Daten besser zu treffen. Im zweiten Teil erstellen wir ein Vorhersagemodell, welches basierend auf historischen Daten den Fahrradverkehr auf der Fremont Bridge vorhersagen kann.
 - [Aufgabenstellung](Praktikum/Pr6_Lineare_Modelle_blank.ipynb)
 - [Lösungsvorschlag](Praktikum/Pr5_6_Lineare_Modelle_sol.ipynb)
 ---
---- -->
 
 ## Woche 7
 Wir besprechen detaillierter die Klasse der [Naive Bayes Modelle](Vorlesung/04.01_Naive_Bayes.ipynb).
