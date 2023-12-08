@@ -19,6 +19,11 @@ Im Rahmen dieser Veranstaltung empfehle ich insbesondere folgende Werke:
 - Shalev-Schwartz, Ben-David, Understanding Machine Learning, Cambridge University Press, 2014 — genaue Einführung in die Thematik inkl. Lerntheorie und genauen Hintergründen der Algorithmen, [im Volltext verfügbar](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning)
 ---
 
+## Studienarbeit
+Die [Aufgabenstellung der Studienarbeit](/Studienarbeit/tex/Studienarbeit.pdf) ist online. Alle notwendigen Daten etc. finden Sie im Ordner [Studienarbeit](/Studienarbeit/).
+
+Abgabe der Studienarbeit ist bis zum 23. Januar via [Moodle](https://moodle.hm.edu/mod/assign/view.php?id=902751).
+
 <!-- ## Woche 13
 Aus mehrfachen Wunsch hin findet die letzte Veranstaltung des Semesters [online](https://hm-edu.zoom.us/j/66727078430?pwd=WjMzWC9ZWStuci9hdHJ0MXkyZGxtQT09) statt. Wir betrachten eine knappe Einführung in neuronale Netze. Die Notizen dazu finden Sie im [OneNote-Dokument][onenote]. 
 
