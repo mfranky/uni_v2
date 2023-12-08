@@ -44,21 +44,22 @@ Auch auf mögliche Fragen zu den Themen der Studienarbeit werden wir eingehen.
 Ich bitte Sie, das Thema [Principal Component Analysis (PCA)](Vorlesung/04.05_PCA.ipynb) anhand des Notebooks und des darin verlinkten Videos zu erarbeiten. Anschließend stehe ich Ihnen ab 11:45 Uhr via [Zoom](https://hm-edu.zoom.us/j/69101999484?pwd=RkZFWU5Ic1l6U3VINEpvZmxMZGhuQT09) für Fragen bzw. zur Diskussion des Themas zur Verfügung.
 
 ### Praktikum
-Auf mehrfache Anregung hin stelle ich Ihnen diese Woche Zeit zur Verfügung, um das zugegebenermaßen sehr umfangreiche [Praktikum 7 (End-to-end ML project)](Praktikum/Pr7_End_to_end_ML_project.ipynb) weiter zu bearbeiten. Dies ist eine optimale Vorbereitung für die Studienarbeit, deren Themen nächste Woche gestellt werden.
-
----
-
-## Woche 10
-Wir ergänzen das Beispiel "Gesichtserkennung" zu den SVMs.
-Danach besprechen wir [Entscheidungsbäume](Vorlesung/04.04_Random_Forests.ipynb) (*Decision Trees*) und darauf aufbauend - anhand des *Bagging* Prinzips - die sog. *Random Forests*. In diesem Zusammenhang betrachten wir sowohl Klassifizierungs- als auch Regressionsprobleme.
-
-### Praktikum
 Im Praktikum versuchen wir uns anhand der berühmten [MNIST-Daten](http://yann.lecun.com/exdb/mnist/) eine Multiclass-Klassifizierung zu meistern. Wir erstellen dazu ein Ensemble von verschiedenen Methoden und verwenden Hard- und Soft-Voting. Damit werden wir einen Genauigkeit von knapp 97% erzielen können.
 - [Aufgabenstellung](Praktikum/Pr8_MNIST_blank.ipynb)
 - [Lösungsvorschlag](Praktikum/Pr8_MNIST_sol.ipynb)
 
 ---
 --- -->
+
+## Woche 10
+**Die Veranstaltung findet diese Woche rein [online](https://hm-edu.zoom.us/j/62676298640?pwd=dXFsMWVyTFBWbmRUc2xpSWpSbGgxUT09) statt.
+Wir ergänzen das Beispiel "Gesichtserkennung" zu den SVMs.
+Danach besprechen wir [Entscheidungsbäume](Vorlesung/04.04_Random_Forests.ipynb) (*Decision Trees*) und darauf aufbauend - anhand des *Bagging* Prinzips - die sog. *Random Forests*. In diesem Zusammenhang betrachten wir sowohl Klassifizierungs- als auch Regressionsprobleme.
+
+### Praktikum
+Wie angekündigt stelle ich Ihnen diese Woche Zeit zur Verfügung, um das zugegebenermaßen sehr umfangreiche [Praktikum 7 (End-to-end ML project)](Praktikum/Pr7_End_to_end_ML_project.ipynb) weiter zu bearbeiten.
+
+---
 
 ## Woche 9
 Wir besprechen den Rest der Notebooks zu [linearen Modellen](Vorlesung/04.02_Lineare_Modelle.ipynb), insbesondere das Thema Klassifizierung.
