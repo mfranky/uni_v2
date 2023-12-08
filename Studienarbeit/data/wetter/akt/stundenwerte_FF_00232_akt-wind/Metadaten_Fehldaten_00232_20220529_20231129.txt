@@ -1,0 +1,14 @@
+Stations_ID;Stations_Name;Parameter;Von_Datum;Bis_Datum;Gesamt_Fehlwerte;Beschreibung;eor;                                                                                                              
+232;Augsburg;F;29.05.2022;29.11.2023;124;Gesamt_Messzeitraum;eor;                                                                                                                                       
+232;Augsburg;D;29.05.2022;29.11.2023;119;Gesamt_Messzeitraum;eor;                                                                                                                                       
+Stations_ID;Stations_Name;Parameter;Von_Datum;Bis_Datum;Anzahl_Fehlwerte;Beschreibung;eor;                                                                                                              
+232;Augsburg;F;16.11.2022-20:00;17.11.2022-10:00;15;;eor;                                                                                                                                               
+232;Augsburg;F;28.11.2022-09:00;02.12.2022-10:00;98;;eor;                                                                                                                                               
+232;Augsburg;F;07.12.2022-08:00;07.12.2022-14:00;7;;eor;                                                                                                                                                
+232;Augsburg;F;13.06.2023-10:00;13.06.2023-12:00;3;;eor;                                                                                                                                                
+232;Augsburg;F;30.10.2023-09:00;30.10.2023-09:00;1;;eor;                                                                                                                                                
+232;Augsburg;D;16.11.2022-20:00;17.11.2022-09:00;14;;eor;                                                                                                                                               
+232;Augsburg;D;28.11.2022-10:00;02.12.2022-09:00;96;;eor;                                                                                                                                               
+232;Augsburg;D;07.12.2022-08:00;07.12.2022-13:00;6;;eor;                                                                                                                                                
+232;Augsburg;D;13.06.2023-10:00;13.06.2023-12:00;3;;eor;                                                                                                                                                
+generiert: 30.11.2023 --  Deutscher Wetterdienst  --                                                                                                                                                    

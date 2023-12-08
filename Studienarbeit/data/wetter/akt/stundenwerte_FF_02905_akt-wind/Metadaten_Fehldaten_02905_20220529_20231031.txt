@@ -1,0 +1,9 @@
+Stations_ID;Stations_Name;Parameter;Von_Datum;Bis_Datum;Gesamt_Fehlwerte;Beschreibung;eor;                                                                                                              
+2905;Lechfeld;F;29.05.2022;31.10.2023;66;Gesamt_Messzeitraum;eor;                                                                                                                                       
+2905;Lechfeld;D;29.05.2022;31.10.2023;66;Gesamt_Messzeitraum;eor;                                                                                                                                       
+Stations_ID;Stations_Name;Parameter;Von_Datum;Bis_Datum;Anzahl_Fehlwerte;Beschreibung;eor;                                                                                                              
+2905;Lechfeld;F;05.05.2023-20:00;08.05.2023-11:00;64;;eor;                                                                                                                                              
+2905;Lechfeld;F;06.07.2023-09:00;06.07.2023-10:00;2;;eor;                                                                                                                                               
+2905;Lechfeld;D;05.05.2023-20:00;08.05.2023-11:00;64;;eor;                                                                                                                                              
+2905;Lechfeld;D;06.07.2023-09:00;06.07.2023-10:00;2;;eor;                                                                                                                                               
+generiert: 30.11.2023 --  Deutscher Wetterdienst  --                                                                                                                                                    

@@ -1,0 +1,12 @@
+Stations_ID;Stations_Name;Parameter;Von_Datum;Bis_Datum;Anzahl_Fehlwerte;Beschreibung;eor;                                                                                                              
+232;Augsburg;R1;28.11.2022-09:00;02.12.2022-10:00;97;;eor;                                                                                                                                              
+232;Augsburg;R1;07.12.2022-08:00;07.12.2022-14:00;6;;eor;                                                                                                                                               
+232;Augsburg;R1;09.12.2022-05:00;09.12.2022-08:00;3;;eor;                                                                                                                                               
+232;Augsburg;RS_IND;28.11.2022-09:00;02.12.2022-10:00;97;;eor;                                                                                                                                          
+232;Augsburg;RS_IND;07.12.2022-08:00;07.12.2022-14:00;6;;eor;                                                                                                                                           
+232;Augsburg;RS_IND;09.12.2022-05:00;09.12.2022-08:00;3;;eor;                                                                                                                                           
+232;Augsburg;WRTR;28.11.2022-09:00;02.12.2022-10:00;97;;eor;                                                                                                                                            
+232;Augsburg;WRTR;07.12.2022-07:00;07.12.2022-14:00;7;;eor;                                                                                                                                             
+232;Augsburg;WRTR;09.12.2022-05:00;09.12.2022-08:00;3;;eor;                                                                                                                                             
+232;Augsburg;WRTR;15.12.2022-10:00;15.12.2022-11:00;1;;eor;                                                                                                                                             
+generiert: 30.11.2023 --  Deutscher Wetterdienst  --                                                                                                                                                    

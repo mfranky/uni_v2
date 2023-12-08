@@ -1,0 +1,6 @@
+Stations_ID;Stationsname;Geo. Laenge [Grad];Geo. Breite [Grad];Stationshoehe [m];Geberhoehe ueber Grund [m];Von_Datum;Bis_Datum;Geraetetyp Name;Messverfahren;eor;
+2905;Lechfeld;;;;;19750101;19781231;Gerätetyp unbekannt;Windmessung;eor;
+2905;Lechfeld;10.85;48.18;550;10;19790101;20070924;Windmessanlage, unbekannt;Windmessung;eor;
+2905;Lechfeld;10.85;48.18;550;10;20070925;20211108;Windrichtungssensor Economy, Typ 14565-14566;Windmessung, elektr.;eor;
+2905;Lechfeld;10.85;48.18;550;10;20211109;20230426;Windrichtungssensor Economy, Typ 14565-14566;Windmessung, elektr.;eor;
+generiert: 05.05.2023 --  Deutscher Wetterdienst  --

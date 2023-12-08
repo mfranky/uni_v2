@@ -7,3 +7,7 @@ Projektarbeiten/
 .vscode/
 Vorlesung\__pycache__/
 Vorlesung\.ipynb_checkpoints/
+*.aux
+*.log
+*.out
+*.synctex.gz
