@@ -20,6 +20,8 @@ Im Rahmen dieser Veranstaltung empfehle ich insbesondere folgende Werke:
 ---
 
 ## Studienarbeit
+**Wichtig: Die am Freitag zur Verfügung gestellten Daten waren leider fehlerhaft. Seit Samstag Abend ca. 19 Uhr sind die Daten korrigiert. Bitte laden Sie die Daten ggf. neu.**
+
 Die [Aufgabenstellung der Studienarbeit](/Studienarbeit/tex/Studienarbeit.pdf) ist online. Alle notwendigen Daten etc. finden Sie im Ordner [Studienarbeit](/Studienarbeit/).
 
 Abgabe der Studienarbeit ist bis zum 23. Januar via [Moodle](https://moodle.hm.edu/mod/assign/view.php?id=902751).
