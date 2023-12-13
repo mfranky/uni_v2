@@ -42,21 +42,22 @@ Um gewisse Probleme von k-Means zu umgehen, betrachten wir außerdem noch sog. G
 ### Praktikum
 Diese Woche gibt es keine neue Praktikumsaufgabe. Stattdessen findet wie angekündigt die Präsentation einer Projektarbeit statt, bei der vier Studenten einen automatischen Logger entwickelt haben, der mit einer Kamera Messinstrumente abließt, diese durch ML-Methoden interpretiert und protokolliert.
 Auch auf mögliche Fragen zu den Themen der Studienarbeit werden wir eingehen.
-
----
-
-## Woche 11
-**WICHTIG:** Diese Woche findet **keine** Präsenzveranstaltung statt.
-
-Ich bitte Sie, das Thema [Principal Component Analysis (PCA)](Vorlesung/04.05_PCA.ipynb) anhand des Notebooks und des darin verlinkten Videos zu erarbeiten. Anschließend stehe ich Ihnen ab 11:45 Uhr via [Zoom](https://hm-edu.zoom.us/j/69101999484?pwd=RkZFWU5Ic1l6U3VINEpvZmxMZGhuQT09) für Fragen bzw. zur Diskussion des Themas zur Verfügung.
-
-### Praktikum
 Im Praktikum versuchen wir uns anhand der berühmten [MNIST-Daten](http://yann.lecun.com/exdb/mnist/) eine Multiclass-Klassifizierung zu meistern. Wir erstellen dazu ein Ensemble von verschiedenen Methoden und verwenden Hard- und Soft-Voting. Damit werden wir einen Genauigkeit von knapp 97% erzielen können.
 - [Aufgabenstellung](Praktikum/Pr8_MNIST_blank.ipynb)
 - [Lösungsvorschlag](Praktikum/Pr8_MNIST_sol.ipynb)
 
 ---
 --- -->
+
+## Woche 11
+** Bitte nehmen Sie sich ein paar Minuten Zeit, um mir [Feedback zur Veranstaltung](https://evasys.cc.hm.edu/evasys/online.php?pswd=85JUN) zu geben. Insbesondere die Anregungen in den Freitextfeldern sind sehr interessant und nützlich. Vielen Dank! **
+
+Diese Woche betrachten wir ein erstes *unsupervised* Verfahren, die sog. [Principal Component Analysis (PCA)](Vorlesung/04.05_PCA.ipynb). Dabei geht es darum, die Dimension vorliegender Daten zu verringern, ohne dabei allzu viel Information zu verlieren.
+
+### Praktikum
+Das Praktikum werden wir nutzen, um über die Studienarbeit zu sprechen und etwaige Fragen zu klären.
+
+---
 
 ## Woche 10
 **Die Veranstaltung findet diese Woche rein [online](https://hm-edu.zoom.us/j/62676298640?pwd=dXFsMWVyTFBWbmRUc2xpSWpSbGgxUT09) statt.
