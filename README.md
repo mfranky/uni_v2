@@ -35,19 +35,17 @@ Außerdem können Fragen im Umfeld der Studienarbeiten besprochen werden.
 [TensorFlow Playground](https://playground.tensorflow.org/) stellt eine direkt zugängliche, einfache und intuitive Umgebung bereit, um mit neuronalen Netzen sehr einfach zu experimentieren. Eine Anleitung, wie Sie damit die Funktionsweise neuronaler Netze strukturiert erkunden können, finden Sie [hier](Praktikum/Pr9_TF_Playground.html).
 
 ---
+--- -->
 ## Woche 12
 Diese Woche betrachten wir nach PCA ein weiteres Verfahren der Klasse *unsupervised*. Konkret geht es darum, vorliegende Daten in Cluster aufzuteilen. Ein intuitiv sehr gut zugängliches Verfahren (wir hatten es zu Beginn des Semesters schon mal kurz angerissen) ist [k-Means](Vorlesung/04.06_k-Means_GMM.ipynb). Einen sehr guten Überblick über die prinzipiellen Probleme der Aufgabenstellen *Clustern* finden Sie in Kap. 22 von *Understanding Machine Learning*. Auch der Zusammenhang zu graphentheoretischen Problemen wird dort deutlich gemacht.
 Um gewisse Probleme von k-Means zu umgehen, betrachten wir außerdem noch sog. Gaussian Mixture Models (GMMs). 
 
 ### Praktikum
-Diese Woche gibt es keine neue Praktikumsaufgabe. Stattdessen findet wie angekündigt die Präsentation einer Projektarbeit statt, bei der vier Studenten einen automatischen Logger entwickelt haben, der mit einer Kamera Messinstrumente abließt, diese durch ML-Methoden interpretiert und protokolliert.
-Auch auf mögliche Fragen zu den Themen der Studienarbeit werden wir eingehen.
-Im Praktikum versuchen wir uns anhand der berühmten [MNIST-Daten](http://yann.lecun.com/exdb/mnist/) eine Multiclass-Klassifizierung zu meistern. Wir erstellen dazu ein Ensemble von verschiedenen Methoden und verwenden Hard- und Soft-Voting. Damit werden wir einen Genauigkeit von knapp 97% erzielen können.
+Im Praktikum versuchen wir uns anhand der berühmten [MNIST-Daten](http://yann.lecun.com/exdb/mnist/) eine Multiclass-Klassifizierung zu meistern. Wir erstellen dazu ein Ensemble von verschiedenen Methoden und verwenden Hard- und Soft-Voting. Damit werden wir eine Genauigkeit von knapp 97% erzielen können.
 - [Aufgabenstellung](Praktikum/Pr8_MNIST_blank.ipynb)
 - [Lösungsvorschlag](Praktikum/Pr8_MNIST_sol.ipynb)
 
 ---
---- -->
 
 ## Woche 11
 ** Bitte nehmen Sie sich ein paar Minuten Zeit, um mir [Feedback zur Veranstaltung](https://evasys.cc.hm.edu/evasys/online.php?pswd=85JUN) zu geben. Insbesondere die Anregungen in den Freitextfeldern sind sehr interessant und nützlich. Vielen Dank! **
